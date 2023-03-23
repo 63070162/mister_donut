@@ -1,0 +1,484 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>new&activity</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="new&activity.css">
+  <link rel="stylesheet" href="nav-bar.css">
+  <script src="script.js"></script>
+
+</head>
+
+<body id="bodys">
+  <div class="nav">
+    <div class="container nav-top pb-0">
+      <p id="hello" class="pt-2">HELLO...</p>
+      <ul class="pt-2 main-contact pb-0">
+        <a href="https://www.facebook.com/MisterDonutThailand" target="_blank" class="text-icon fb"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/20/20837.png" alt="facebook" class="icon-top" />
+          <span>Facebook</span>
+        </a>
+        <a href="https://www.instagram.com/misterdonut_thailand/" target="_blank" class="text-icon ig"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384089.png" alt="instagram" class="icon-top" />
+          <span>Instagram</span>
+        </a>
+        <a href="https://twitter.com/MisterdonutThai" target="_blank" class="text-icon tw"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111819.png" alt="twitter" class="icon-top" />
+          <span>Twitter</span>
+        </a>
+        <a href="https://www.youtube.com/channel/UCJ9RxPxMsQabgddxUKBHakg" target="_blank" class="text-icon yt"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/37/37922.png" alt="youtube" class="icon-top" />
+          <span>Youtube</span>
+        </a>
+        <a href="http://line.me/ti/p/%40mister.donut" target="_blank" class="text-icon line"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111527.png" alt="line" class="icon-top" />
+          <span>Line</span>
+        </a>
+      </ul>
+    </div>
+    <div class="nav-bottom row pt-0" id="nav-bottom">
+      <div class="container">
+        <div class="col-4">
+          <a href="/index.html" style="text-decoration: none">
+            <img src="/navbar/img/logo.png" alt="logo" class="logo" id="logo" />
+          </a>
+        </div>
+        <div class="small row col-4" id="small">
+          <a href="/career/career.html" class="nav-text-top" style="text-decoration: none">CAREERS</a>
+          <p>|</p>
+          <a href="/contact-us/contact_us.html" class="nav-text-top" style="text-decoration: none">CONTACT US</a>
+        </div>
+        <div class="nav-text-bottom" id="nav-text-bottom">
+          <a href="/index.html" class="nav-text" style="text-decoration: none">HOME</a>
+          <a href="/about-us/about_us.html" class="nav-text" style="text-decoration: none">ABOUT US</a>
+          <a href="/mains/menu.html" class="nav-text" style="text-decoration: none">MENU</a>
+          <a href="/promotion/promotion.html" class="nav-text" style="text-decoration: none">PROMOTIONS</a>
+          <a href="/new&activity/index.html" class="nav-text" style="text-decoration: none">NEWS & ACTIVITY</a>
+          <a href="/mains/snack.html" class="nav-text" style="text-decoration: none">SNACK BOX & CATERING</a>
+          <a href="/branch/branch.html" class="nav-text" style="text-decoration: none">BRANCH</a>
+        </div>
+        <div>
+          <img src="/navbar/img/56763.png" alt="" class="menu" id="menu" onclick="menu()" />
+        </div>
+      </div>
+      <div class="hide" id="hide">
+        <img src="/navbar/img/1828747.png" alt="close" id="close" onclick="closed()" />
+        <div class="hide-text-top p-4">
+          <a href="/index.html" class="hide-text" style="text-decoration: none">HOME</a><br />
+          <a href="/about-us/about_us.html" class="hide-text" style="text-decoration: none">ABOUT US</a><br />
+          <a href="/mains/menu.html" class="hide-text" style="text-decoration: none">MENU</a><br />
+          <a href="/promotion/promotion.html" class="hide-text" style="text-decoration: none">PROMOTIONS</a><br />
+          <a href="/new&activity/index.html" class="hide-text" style="text-decoration: none">NEWS & ACTIVITY</a><br />
+          <a href="/mains/snack.html" class="hide-text" style="text-decoration: none">SNACK BOX & CATERING</a><br />
+          <a href="/branch/branch.html" class="hide-text" style="text-decoration: none">BRANCH</a><br />
+          <a href="/career/career.html" class="hide-text" style="text-decoration: none">CAREERS </a><br />
+          <a href="/contact-us/contact_us.html" class="hide-text" style="text-decoration: none">CONTACT US</a><br />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="height: 100px;"></div>
+  <!-- เปิด -->
+  <!-- popup -->
+  <div class="main-popup d-flex justify-content-center" id="main-popup-1">
+    <div class="popup1-1 up-popup1">
+      <div class="popup1-2 up-popup2">
+        <img class="img-popup" src="img/newact_2.jpg">
+        <h2 class="uptxt-red">กิจกรรม ‘Tag คู่กัด จัดคอฟฟี่ ดีคราฟท์’ กับ มิสเตอร์ โดนัท คอฟฟี่ ดีคราฟท์</h2>
+        <div class="line-menu-popup"></div>
+        <p class="uptxt-small" style="text-decoration: underline;">กติกาการร่วมสนุก</p>
+        <p class="txt_popup">1.กดไลก์เพจ Mister Donut (Thailand)<br>
+          2.แชร์โพสต์นี้และเปิดเป็นสาธารณะ<br>
+          3.แท็กเพื่อนคู่กัดคู่กินใต้โพสต์นี้ พร้อมบอกว่าอยากมากิน ‘โดนัท คอฟฟี่ ดีคราฟท์’
+          รสชาติไหนด้วยกันพร้อมเหตุผลโดนใจ และติด #กาแฟกัดได้<br>
+          4.คอมเมนต์ของใครโดนใจกรรมการของมิสเตอร์ โดนัท มากที่สุด จำนวน 10 ท่าน รับรางวัล เป็น “Mister Donut Gift
+          Voucher” สำหรับแลกซื้อมิสเตอร์ โดนัท ได้ที่ร้านมิสเตอร์โดนัท ทุกสาขา มูลค่ารางวัลละ 200 บาท จำนวน 10
+          รางวัล<br>
+          5.ระยะเวลาในการร่วมสนุก ตั้งแต่วันที่ 30 สิงหาคม 2563 เวลา 10.00 น. ถึง 5 กันยายน 2563 เวลา 18.00 น.<br>
+          6.ประกาศรายชื่อผู้ที่ได้รับรางวัล ลงในคอมเมนต์ใต้โพสต์กิจกรรม ในวันที่ 10 กันยายน 2563 เวลา 18.00<br>
+          7.ผู้ที่ได้รับรางวัลจะต้องยืนยันสิทธิ์ผ่านทาง inboxของ Mister Donut Facebook Fan Page ภายใน 7 วัน
+          ตั้งแต่วันที่ 7 กันยายน 2563 เวลา 10.00 น. – วันที่ 16 กันยายน 2563 เวลา 18:00 หลังจากประกาศผล
+          มิฉะนั้นจะถือว่าสละสิทธิ์<br>
+          8.มิสเตอร์ โดนัท จะจัดส่งของรางวัลให้แก่ผู้ได้รับรางวัลทางไปรษณีย์ ในวันที่ 15 กันยายน 2563<br>
+          9.ของรางวัลไม่สามารถเปลี่ยนแปลง โอนกรรมสิทธิ์ผู้รับประโยชน์ หรือแลกเปลี่ยนขอคืนเป็นเงินสดได้<br>
+          10.การตัดสินของคณะกรรมการ มิสเตอร์ โดนัท ถือเป็นที่สิ้นสุด</p>
+        <p class="underline">เกณฑ์การคัดเลือกผู้ได้รับรางวัล</p>
+        <p class="txt_popup">1.กรรมการของ มิสเตอร์ โดนัท จะคัดเลือกรายชื่อผู้ที่ได้รับรางวัล จากคอมเมนท์ที่ชื่นชอบที่สุด
+          จำนวน 10 ท่าน<br>
+          2.ผู้ได้รับรางวัลจะต้องทำถูกต้องตามกติกาทั้งหมด<br>
+          3.ผู้ได้รับรางวัลร่วมสนุกภายในระยะเวลาที่กำหนด<br>
+          4.ผู้ได้รับรางวัลต้องเป็นผู้พักอาศัยในประเทศไทยเท่านั้น<br>
+          5.การตัดสินของคณะกรรมการ มิสเตอร์ โดนัท ถือเป็นที่สิ้นสุด</p>
+        <p class="underline">ของรางวัลจากกิจกรรม</p>
+        <p class="txt_popup">Mister Donut Gift Voucher สำหรับแลกซื้อ มิสเตอร์ โดนัท มูลค่า รางวัลละ 200 บาท จำนวน 10
+          รางวัล<br>
+          (ใช้งานได้ตั้งแต่วันที่ 15 กันยายน 2563 – 15 ธันวาคม 2563)<br>
+          หมายเหตุ: รางวัลไม่สามารถแลกเป็นเงินสดหรือของรางวัลอื่นได้</p>
+        <p class="underline">เงื่อนไขในการรับรางวัล</p>
+        <p class="txt_popup">1. ทางทีมงานจะประกาศผลรายชื่อผู้ได้รับรางวัล โดยประกาศรายชื่อบนหน้า Facebook Fan page
+          Mister Donut Thailand ในวันที่ 10 กันยายน 2563 เวลา 18.00<br>
+          2. ผู้ที่ได้รับรางวัลจะต้องยืนยันสิทธิ์ผ่านทาง inboxของ Mister Donut Facebook Fan Page ภายใน 7 วัน
+          ตั้งแต่วันที่ 7 กันยายน 2563 เวลา 10.00 น. – วันที่ 16 กันยายน 2563 เวลา 18:00 หลังจากประกาศผล
+          มิฉะนั้นจะถือว่าสละสิทธิ์ ของรางวัลไม่สามารถเปลี่ยนแปลง โอนกรรมสิทธิ์ผู้รับประโยชน์
+          หรือแลกเปลี่ยนขอคืนเป็นเงินสดได้ โดยผู้ได้รับรางวัลจะต้องแจ้ง ชื่อ นามสกุล ที่อยู่
+          และเบอร์โทรศัพท์ที่สามารถติดต่อได้ ทาง inbox เพื่อติดต่อรับรางวัล<br>
+          3. ในกรณีที่ผู้ที่ได้รับรางวัลไม่มายืนยันสิทธิ์ผ่านทาง Inbox Facebook Fan Page Mister Donut
+          ภายในวันและระยะเวลาตามที่กำหนดจะถือว่าสละสิทธิ์ทันที<br>
+          4. ทางทีมงานจะคัดเลือกผู้โชคดีสำรองที่ทำถูกกติกาอีก 2 ท่าน
+          สำรองไว้เผื่อสำหรับกรณีสละสิทธิ์รับรางวัลหรือยืนยันสิทธิ์ไม่ทันเวลาที่กำหนด
+          โดยที่ทางทีมงานจะติดต่อผู้รับรางวัลสำรองเพื่อให้ดำเนินการยืนยันสิทธิ์ผ่านทาง Inbox Facebook Fan page Mister
+          Donut Thailand เท่านั้น และยืนยืนสิทธิ์สำรองกลับภายในวันที่ 14 กันยายน 2563 เวลา 18:00 หลังจาก</p>
+        <p class="underline">ข้อตกลงและเงื่อนไขอื่น ๆ</p>
+        <p class="txt_popup">1.คำตอบผู้ร่วมกิจกรรมจะต้องไม่ละเมิดสิทธิส่วนบุคคล ลิขสิทธิ์
+          ทรัพย์สินทางปัญญาของผู้อื่น<br>
+          2.คำตอบที่ส่งมาจะต้องไม่มีลักษณะที่เป็นไปเพื่อประโยชน์ทางการตลาดหรือการประชาสัมพันธ์สินค้าแบรนด์หรือร้านอื่นนอกจาก
+          มิสเตอร์ โดนัท ไม่ว่าจะเป็น ภาพ สัญลักษณ์ ข้อความ และอื่น ๆ<br>
+          3.คำตอบที่ส่งมาจะต้องไม่พาดพิงหรือหมิ่นต่อสถาบันชาติ ศาสนา และพระมหากษัตริย์
+          ตลอดจนบุคคลหรือองค์กรใดอันจะทำให้เกิดความเสียหายต่อชื่อเสียงของบุคคลหรือสถาบันที่เกี่ยวข้อง<br>
+          4.ไม่สื่อความหมายรุนแรง อนาจาร หยาบคาย หรือมีเนื้อหาที่ไม่เหมาะสม หรือขัดต่อความสงบเรียบร้อยและศีลธรรม<br>
+          5.ผู้ได้รับรางวัล ตกลงให้มิสเตอร์ โดนัท เผยแพร่ภาพ ข้อความ และข้อมูลต่าง ๆ ของผู้โชคดีที่ได้รับรางวัล
+          เพื่อการประชาสัมพันธ์ผ่านสื่อต่าง ๆ โดยไม่ต้องจ่ายค่าตอบแทนใด ๆ<br>
+          6.หาก มิสเตอร์ โดนัท พบว่ามีการทุจริตเกิดขึ้น
+          หรือผู้ร่วมกิจกรรมไม่ปฏิบัติตามกติกาหรือเงื่อนไขของกิจกรรมไม่ว่าในกรณีใด ๆ มิสเตอร์ โดนัท
+          จะตัดสิทธิ์การเข้าร่วมกิจกรรมหรือรับของรางวัลโดยไม่ต้องแจ้งให้ทราบล่วงหน้า<br>
+          7.มิสเตอร์ โดนัท จะไม่รับผิดชอบใด ๆ
+          ต่อการสูญหายหรือการถูกโจรกรรมข้อมูลของผู้ร่วมกิจกรรมอันเนื่องจากปัญหาของระบบหรือเทคนิค และบุคคลที่สาม<br>
+          8.ผู้โชดดีจะได้รับรางวัลทางไปรษณีย์ ภายในวันที่ ในวันที่ 15 กันยายน 2563<br>
+          9.พนักงานและครอบครัวของพนักงาน บริษัท เซ็นทรัล เรสตอรองส์ กรุ๊ป จำกัด รวมถึงตัวแทนโฆษณา ประชาสัมพันธ์
+          และผู้เกี่ยวข้องกับการจัดกิจกรรมไม่มีสิทธิ์ในการรับรางวัล</p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" style="left: 655px;" onclick="outclickmenu_1(this)"><img src="img/x-close.png"
+            alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="main-popup d-flex justify-content-center" id="main-popup-2">
+    <div class="popup1-1 up-popup1">
+      <div class="popup1-2 up-popup2">
+        <img class="img-popup" src="img/newact_3.jpg">
+        <h2 class="uptxt-red">ร่วมส่งไอเดียเครื่องดื่มสุดคลู ที่อยากให้มีที่มิสเตอร์ โดนัท</h2>
+        <div class="line-menu-popup"></div>
+        <p class="uptxt-small" style="font-weight: bold;">กติกา:</p>
+        <p class="uptxt-small" style="font-size: 15px;">1.ผู้เข้าร่วมกิจกรรมเป็นสมาชิก Mister Donut Line Official<br>
+          2. ส่งไอเดียเครื่องดื่มเครื่องดื่มสุดคูล ที่อยากให้มีที่ร้านมิสเตอร์ โดนัท <br>
+          3. พิมพ์คำตอบ พร้อมระบุชื่อ-นามสกุล , เบอร์โทรศัพท์ ที่อยู่ , ในหนึ่งข้อความเท่านั้น(ตัวอย่าง: น้ำชารสมะม่วง
+          ชื่อ –นามสกุล ที่อยู่ เบอร์โทร 088-xxx-xxxx)<br>
+          4. ขอสงวนสิทธิ์ 1 LINE Account / 1 ไอเดีย<br>
+          5. ระยะเวลาร่วมกิจกรรม : ในวันที่ 1 ก.พ. 2562 ช่วง On-Air เวลา 17.00 -20.00 น. ตามเวลาประเทศไทย<br>
+          6. ประกาศผลกิจกรรม : 4 ก.พ. 62 เวลา 18.00 น ผ่านทาง Facebook Mister Donut (Thailand)<br>
+          7. ผู้ที่ได้รับรางวัลจะต้องยืนยันสิทธิ์ โดยเป็นข้อมูลเดียวกันกับขณะร่วมกิจกรรมตอบคำถามยืนยันสิทธิ์ ภายในวันที่
+          6 ก.พ. 2562 ภายในเวลา 12.00 น. หากเกินระยะเวลาถือว่าสละสิทธิ์ <br>
+          8. 1 รางวัล ได้รับบัตรชมภาพยนต์จำนวน 2 ใบ มูลค่ารางวัลละ 360.- รวมจำนวน 50 รางวัล<br>
+          9. ของรางวัลประกอบด้วย บัตรชมภาพยนต์ ในเครือเมเจอร์ ซีนีเพล็ก รางวัลละ 2 ใบ มูลค่า
+          360.-(โดยบัตรชมภาพยนต์สามารถใช้สิทธิ์ได้ภายในวันที่ 28 ก.พ 2562 )<br>
+          10. ของรางวัลจะถูกจัดส่งให้ผู้โชคดีทางไปรษณีย์ ภายใน 15 วันหลังจากผู้โชคดียืนยันสิทธิ์<br>
+          11. รายละเอียดเงื่อนไขการเข้าร่วมกิจกรรม คลิก<a href="http://www.misterdonut.co.th/news.php"
+            class="txt_popup">http://www.misterdonut.co.th/news.php</a> </p>
+        <p class="uptxt-small" style="font-weight: bold;">เงื่อนไข</p>
+        <p class="txt_popup">1.ผู้เข้าร่วมกิจกรรมต้องเป็นสมาชิก Mister Donut Line Official ที่พำนักอาศัยอยู่ในประเทศไทย
+          และมีบัญชี LINE ในการเข้าเล่นกิจกรรมครั้งนี้เท่านั้น<br>
+          2.ผู้เข้าร่วมกิจกรรมต้องทำตามกฎ กติกาที่กำหนดทุกขั้นตอน ครบถ้วนและถูกต้อง ทางแบรนด์มิสเตอร์ โดนัท (ประเทศไทย)
+          จะจัดส่งของรางวัลตามที่อยู่ที่ระบุไว้เท่านั้น<br>
+          3.แบรนด์มิสเตอร์ โดนัท (ประเทศไทย)จะคัดเลือกผู้โชคดี จากผู้ที่ส่งไอเดียเครื่องดื่ม 50 ท่านแรก
+          ซึ่งผู้ที่ได้รับรางวัลต้องเป็นผู้ที่ทำตามกติกาและเงื่อนไขของกิจกรรมที่ระบุไว้อย่างครบถ้วนและถูกต้องเท่านั้น<br>
+          4.ขอสงวนสิทธ์ 1 Account LINE / 1 ไอเดีย<br>
+          5.ร่วมกิจกรรมได้ในวันที่ 1 ก.พ. 2562 ช่วง On-Air เวลา 17.00 - 20.00 น. ตามเวลาประเทศไทย<br>
+          6.ประกาศรายชื่อผู้โชคดีวันที่ 4 ก.พ เวลา 18.00 น ผ่านทาง Facebook Mister Donut (Thailand)<br>
+          7.1 รางวัล ได้รับบัตรชมภาพยนต์จำนวน 2 ใบ มูลค่ารางวัลละ 360.- รวมจำนวน 50 รางวัล<br>
+          8.ของรางวัลประกอบด้วย บัตรชมภาพยนต์ ในเครือเมเจอร์ ซีนีเพล็ก รางวัลละ 2 ใบ มูลค่า 360.-<br>
+          (โดยบัตรชมภาพยนต์สามารถใช้สิทธิ์ได้ภายในวันที่ 28 ก.พ 2562 )
+          9.ทางทีมงาน จะส่งของรางวัลให้ผู้โชคดีทางไปรษณีย์ ภายใน 15 วันหลังจากผู้โชคดียืนยันสิทธิ์
+          โดยเป็นข้อมูลเดียวกันกับขณะร่วมกิจกรรมตอบคำถาม ภายในวันที่ 6 ก.พ 2562 ภายในเวลา 12.00 น.
+          หากเกินระยะเวลาถือว่าสละสิทธิ์ <br>
+          10.แบรนด์มิสเตอร์ โดนัท บริษัท (ประเทศไทย)ขอสงวนสิทธิ์ในการเปลี่ยนแปลงหรือยกเลิกกฎ กติกา เงื่อนไข
+          และของรางวัลโดยแจ้งให้ทราบ ผ่านทาง http://www.misterdonut.co.th
+          โดยของรางวัลจะมีมูลค่าเทียบเท่ากับรางวัลที่ได้แจ้งไว้<br>
+          11.ผู้เข้าร่วมกิจกรรม ตกลงและยินยอม อนุญาตให้แบรนด์มิสเตอร์ โดนัท บริษัท (ประเทศไทย)ใช้ชื่อและ /
+          หรือข้อมูลส่วนตัวซึ่งใช้ส่งผลงานหรือคำตอบในการเข้าร่วมกิจกรรมโดยไม่ต้องแจ้งให้ทราบล่วงหน้า และไม่มีค่าตอบแทนใด
+          ๆ และโดยไม่จำกัดระยะเวลา ในการประชาสัมพันธ์ของ แบรนด์ มิสเตอร์โดนัท (ประเทศไทย) โดยแบรนด์ มิสเตอร์ โดนัท
+          (ประเทศไทย)
+          จะใช้ชื่อผู้เข้าร่วมกิจกรรมและความคิดเห็นที่ส่งโดยผู้เข้าร่วมกิจกรรมทุกท่านในการประชาสัมพันธ์ทางสื่อที่ทางแบรนด์มิสเตอร์
+          โดนัท บริษัท (ประเทศไทย)เห็นสมควร<br>
+          12.การส่งผลงานหรือคำตอบเพื่อร่วมกิจกรรม
+          ผู้เข้าร่วมกิจกรรมยืนยันว่าผลงานหรือคำตอบที่คิดขึ้นโดยผู้เข้าร่วมกิจกรรมเอง
+          และไม่มีวัตถุประสงค์ที่ขัดต่อความสงบเรียบร้อยและศีลธรรม เป็นการหมิ่นประมาท หรือไม่เหมาะสมสำหรับบุคคล
+          ทั่วไปรวมถึงผู้เยาว์ ไม่ละเมิดทรัพย์สินทางปัญญา สิทธิส่วนบุคคล หรือสิทธิอื่น ๆ ของบุคคลหรือนิติบุคคลใด ๆ
+          รวมถึงไม่มีภาพหรือส่วนประกอบอื่นใดอันไม่ได้รับอนุญาตเป็นลายลักษณ์อักษรจากเจ้าของสิทธิ์สำหรับการใช้งานนั้นๆ
+          และไม่จำเป็นต้องมีการรายงานใด ๆ หรือภาระค่าใช้สิทธิแก่บุคคลที่สาม<br>
+          13.ของรางวัลไม่สามารถขาย แลกเปลี่ยน หรือแลกเป็นเงินสดได้และไม่สามารถเปลี่ยนเป็นเงินสด หรือเงินที่เท่ากับ
+          หรือในรูปของผลประโยชน์อื่นๆ<br>
+          14.แบรนด์มิสเตอร์ โดนัท บริษัท (ประเทศไทย) สงวนสิทธิ์ในการใช้
+          ดุลยพินิจตัดสิทธิ์ผู้เข้าร่วมกิจกรรมรายที่มีพฤติการเข้าข่ายละเมิดกฎหมาย หรือสิทธิของบุคคลอื่น
+          หรือมีเหตุควรเชื่อได้ว่ามีเจตนาไม่สุจริตในการเข้าร่วมกิจกรรม<br>
+          15.การเข้าร่วมกิจกรรมเป็นไปตามเงื่อนไข ซึ่ง แบรนด์มิสเตอร์ โดนัท บริษัท (ประเทศไทย)
+          ผู้ร่วมกิจกรรมที่จะได้รับรางวัลต้องดำเนินการตามกติกาและสามารถยอมรับเงื่อนไขที่ระบุข้างต้นรับทราบและ
+          ยินยอมปฏิบัติตามที่ระบุไว้ข้างต้น<br>
+          16.กติกาและเงื่อนไขของกิจกรรมดังกล่าวไม่มีส่วนเกี่ยวข้องกับ LINE
+          และเป็นไปตามข้อกำหนดและเงื่อนไของแบรนด์มิสเตอร์ โดนัท บริษัท (ประเทศไทย)เท่านั้น</p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" style="left: 655px;" onclick="outclickmenu_2(this)"><img src="img/x-close.png"
+            alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="main-popup d-flex justify-content-center" id="main-popup-3">
+    <div class="popup1-1 up-popup1">
+      <div class="popup1-2 up-popup2">
+        <img class="img-popup" src="img/newact_4.jpg">
+        <h2 class="uptxt-red">2 มี.ค. นี้ มาฮาพร้อมๆ กัน กับซาร่า ปะทะ Mister Donut Summer Fruity</h2>
+        <p class="uptxt-small">2 มี.ค. นี้ มาฮาพร้อมๆ กันกับซาร่า และ Mister Donut Summer Fruity มา Live สด
+          ร้องเล่นเต้นดวลมุกแบบหรรษาฮาโค่ดๆ</p>
+        <p class="uptxt-small">ชมสดๆ พร้อมกันได้ที่นี่ Facebook Fanpage Mister Donut Thailand หรือเจอตัวเป็นๆ
+          ได้ที่ร้านมิสเตอร์ โดนัท สาขา ฟิวเจอร์พาร์ค รังสิต ชั้น 1 เวลา 18.00 น. นะครับ
+          ชมย้อนหลัง คลิ๊ก<a href=" http://bit.ly/2CZWrBo"> http://bit.ly/2CZWrBo</a></p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" style="left: 655px;" onclick="outclickmenu_3(this)"><img src="img/x-close.png"
+            alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="main-popup d-flex justify-content-center" id="main-popup-4">
+    <div class="popup1-1 up-popup1">
+      <div class="popup1-2 up-popup2">
+        <img class="img-popup" src="img/newact_5.jpg">
+        <h2 class="uptxt-red">มอบเงินสบทบทุนมูลนิธิรามาธิบดีฯ</h2>
+        <p class="uptxt-small" style="font-size: 15px;">มิสเตอร์ โดนัท ภายใต้การบริหารงานโดย บริษัท เซ็นทรัล เรสตอรองส์
+          กรุ๊ป จำกัด (ซีอาร์จี)
+          มอบงบประมาณสนับสนุนให้แก่มูลนิธิรามาธิบดี สืบเนื่องจากกิจกรรม “มิสเตอร์ โดนัท – โดนัทเดย์
+          ส่งต่อความสุข..ไม่สิ้นสุดปีที่ 8” นำรายได้จากการจำหน่ายโดนัทหน้าพิเศษ
+          รวมเป็นเงินทั้งสิ้น 295,895 บาท เพื่อสนับสนุนทางมูลนิธิฯ ในการดำเนินงานของคณะแพทยศาสตร์โรงพยาบาลรามาธิบดี
+          และร่วมสมทบทุนสร้างอาคารสถาบันการแพทย์จักรีนฤบดินทร์
+          โดยมี ศาสตราจารย์นายแพทย์ พรชัย สิมะโรจน์, รองคณบดีฝ่ายกิจการพิเศษ ให้เกียรติเป็นตัวแทนรับมอบ ณ
+          มูลนิธิรามาธิบดี เมื่อเร็วๆนี้ </p>
+        <p class="uptxt-small" style="font-size: 15px;">ทางมิสเตอร์ โดนัท
+          ขอขอบพระคุณลูกค้าทั่วประเทศสำหรับการสนับสนุนที่ดีเสมอมา จนทำให้กิจกรรมดังกล่าวนี้ประสบผลสำเร็จ
+          และเราขอยึดมั่นช่วยเหลือกิจกรรมเพื่อสังคมสืบต่อไป..</p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" style="left: 655px;" onclick="outclickmenu_4(this)"><img src="img/x-close.png"
+            alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="main-popup d-flex justify-content-center" id="main-popup-5">
+    <div class="popup1-1 up-popup1">
+      <div class="popup1-2 up-popup2">
+        <img class="img-popup" src="img/newact_6.jpg">
+        <h2 class="uptxt-red">ชี้แจงกรณีพนักงานมีพฤติกรรมที่ไม่เหมาะสมเผยแพร่ในสังคมออนไลน์</h2>
+        <p class="uptxt-small" style="font-size: 15px;">​มิสเตอร์ โดนัท ประเทศไทย ภายใต้การบริหารงานโดย บริษัท เซ็นทรัล
+          เรสตอรองส์ กรุ๊ป จำกัด (ซีอาร์จี)
+          ขอเรียนชี้แจงว่าเหตุการณ์ที่ถูกแชร์บนสื่อออนไลน์ เป็นภาพเก่าที่เกิดขึ้นในร้านโดนัทสาขาต่างประเทศ
+          และขอยืนยันว่า “บุคคลในภาพไม่ใช่พนักงาน มิสเตอร์ โดนัท ประเทศไทย
+          และไม่เคยเกิดเหตุการณ์ลักษณะนี้ในร้านมิสเตอร์ โดนัท ประเทศไทย” โดยทางสาขาในประเทศที่เกิดเหตุไม่ได้นิ่งนอนใจ
+          ได้ปิดจุดขายดังกล่าว รวมถึงทำการจัดอบรมพนักงานทั่วประเทศ
+          และเน้นย้าในเรื่องการดูแลคุณภาพของอาหาร และการบริการที่ดี ให้ได้ตามมาตรฐานทันที </p>
+        <p class="uptxt-small" style="font-size: 15px;">ตลอดระยะเวลาในการดำเนินธุรกิจกว่า 40 ปี มิสเตอร์ โดนัท
+          มุ่งมั่นและดำเนินการตามมาตรฐานด้านคุณภาพ
+          โดยตรวจสอบวัตถุดิบและขั้นตอนการผลิตอย่างเคร่งครัดก่อนส่งมอบผลิตภัณฑ์ อีกทั้งไม่หยุดในการพัฒนาการบริการ
+          เพื่อให้ลูกค้าสามารถวางใจได้ว่าผลิตภัณฑ์จากมิสเตอร์ โดนัท
+          เป็นผลิตภัณฑ์คุณภาพได้มาตรฐาน ปลอดภัย และสามารถสร้างความพึงพอใจสูงสุดแก่ลูกค้าที่มาใช้บริการ</p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" style="left: 655px;" onclick="outclickmenu_5(this)"><img src="img/x-close.png"
+            alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="main-popup d-flex justify-content-center" id="main-popup-6">
+    <div class="popup1-1 up-popup1">
+      <div class="popup1-2 up-popup2">
+        <img class="img-popup" src="img/newact_7.jpg">
+        <h2 class="uptxt-red">โดนัทหน้าพิเศษ (Happiness Donut)</h2>
+        <p class="uptxt-small" style="font-weight: bold; text-align: center; font-size: 15px;">มิสเตอร์ โดนัท
+          ผู้นำตลาดโดนัทของประเทศไทย ได้จัดกิจกรรมคืนกำไรและตอบแทนสังคม (CSR)</p>
+        <p class="uptxt-small" style="font-size: 15px; text-align: center;">
+          เพื่อร่วมสมทบทุนมูลนิธิรามาธิบดีเพื่อสร้างสถาบันการแพทย์จักรีนฤบดินทร์
+          โดยเกิดจากพระราชปรารภและพระราชดำริของพระบาทสมเด็จพระเจ้าอยู่หัวภูมิพลอดุลยเดช
+          ที่มีพระราชประสงค์ให้มีสถานพยาบาล หรือโรงพยาบาลของรัฐขนาดใหญ่ระดับโรงเรียนแพทย์ขึ้นที่จังหวัดสมุทรปราการ
+          เพื่อให้การดูแลและให้บริการตรวจรักษาประชาชนในจังหวัดสมุทรปราการ ซึ่งประชาชนส่วนใหญ่มาจากต่างจังหวัด
+          ตลอดจนถึงประชาชนในบริเวณใกล้เคียงรวมถึงจังหวัดชายฝั่งตะวันออก ตั้งแต่จังหวัดชลบุรี ระยอง จันทบุรี ตราด
+          ฉะเชิงเทรา ปราจีนบุรี และสระแก้ว อีกด้วย
+          เนื่องจากในปัจจุบันโรงพยาบาลส่วนใหญ่ในจังหวัดสมุทรปราการเป็นโรงพยาบาลเอกชน
+          ประชาชนซึ่งมีรายได้น้อยไม่สามารถเข้าถึงบริการของโรงพยาบาลเอกชนเหล่านี้ได้ </p>
+        <p class="uptxt-small" style="font-size: 15px; text-align: center;">
+          โครงการนี้จึงเป็นโอกาสของประชาชนไทยที่จะได้รับการพัฒนาคุณภาพชีวิต และเป็นโครงการที่ชาวรามาธิบดีทุกหมู่เหล่า
+          น้อมใจกายดำเนินโครงการเพื่อถวายเป็นราชสักการะ
+          และเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัวภูมิพลอดุลยเดช ในวโรกาสมหามงคลเฉลิมพระชนมพรรษา 84 พรรษา
+          ซึ่งสมพระเกียรติยศอย่างแท้จริง</p>
+        <p class="uptxt-small" style="font-size: 15px;"><strong>รายละเอียดกิจกรรม: </strong><br>
+          มิสเตอร์โดนัทจัดจำหน่ายโดนัทหน้าพิเศษ (Happiness Donut) ทั้ง 4 รสชาติ<br><br>
+          <strong>ราคา:</strong><br>
+          ชิ้นละ 19.-<br><br>
+          <strong>ระยะเวลา:</strong><br>
+          1 – 30 มิถุนายน 2560<br><br>
+          <strong>เงื่อนไขกิจกรรม:</strong><br>
+          ทุกๆ การซื้อโดนัทหน้าพิเศษ 1 ชิ้น จะหักรายได้ชิ้นละ 1 บาท<br>
+          เพื่อนำไปสมทบทุนมูลนิธิรามาธิบดี เพื่อสร้างสถาบันการแพทย์จักรีนฤบดินทร์ จังหวัดสมุทรปราการ<br><br>
+          <strong>สาขาที่ร่วมรายการ:</strong><br>
+          ร้านมิสเตอร์ โดนัท ทุกสาขา ยกเว้นสาขาสยามพารากอน<br><br>
+          <strong>แนะนำหรือสอบถามข้อมูลเพิ่มเติมได้ที่:</strong><br>
+          <a href="https://www.facebook.com/MisterDonutThailand"> www.misterdonut.co.th,
+            http://www.facebook.com/MisterDonutThailand</a>หรือ CRG Call Center โทร.02-66-33-888
+        </p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" style="left: 655px;" onclick="outclickmenu_6(this)"><img src="img/x-close.png"
+            alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="main-popup d-flex justify-content-center" id="main-popup-7">
+    <div class="popup1-1 up-popup1">
+      <div class="popup1-2 up-popup2">
+        <img class="img-popup" src="img/newact_8.jpg">
+        <h2 class="uptxt-red">The No. 1 Brand Thailand Awards</h2>
+        <p class="uptxt-small" style="font-size: 15px; font-weight: bold;">มิสเตอร์ โดนัท ประกาศความสำเร็จ รับรางวัล The
+          No. 1 Brand Thailand Awards 2016-2017</p>
+        <p class="uptxt-small" style="font-size: 15px;">โดยนิตยสาร Marketeer สื่อธุรกิจการตลาดชั้นนำของประเทศ ร่วมกับ
+          บริษัทวิดีโอ รีเสิร์ช อินเตอร์เนชั่นแนล (ประเทศไทย)
+          จำกัด จัดสำรวจและวิจัยครอบคลุมผู้บริโภคทั่วประเทศถึง 4,000 ตัวอย่าง กว่า 1,000 แบรนด์ และมากกว่า 100
+          หมวดสินค้า จึงมั่นใจได้ว่าผลคะแนนมาจากความพึงพอใจของผู้บริโภคอย่างแท้จริง</p>
+        <p class="uptxt-small" style="font-size: 15px;">ภายในงานได้รับเกียรติจาก คุณณัฐ วงศ์พานิช กรรมการผู้จัดการใหญ่
+          บริษัทเซ็นทรัล เรสตอรองส์ กรุ๊ป จำกัด เป็นตัวแทนรับมอบรางวัล No.1
+          Brand Thailand 2016-2017 ยอดนิยมสูงสุด(ทั่วประเทศ) ในหมวด ร้านโดนัท จาก คุณอุรวี เงารุ่งเรือง
+          รองปลัดกระทรวงพาณิชย์ และ คุณเพิ่มพล โพธิ์เพิ่มเหม บรรณาธิการและผู้ก่อตั้งนิตยสาร Marketeer
+          ณ ห้องฉัตราบอลรูม โรงแรมสยามเคมปินสกี้ กรุงเทพฯ</p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" style="left: 655px;" onclick="outclickmenu_7(this)"><img src="img/x-close.png"
+            alt=""></a>
+      </div>
+    </div>
+  </div>
+  <!-- popup -->
+  <div class="container main">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="newact">NEWS & ACTIVITY</h1><br><br><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="img1" src="img/newact_1.jpg"><br><br><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 txt1">
+        <img onclick="onclickmenu_1()" class="imgopa" src="img/newact_2.jpg"><br><br>
+        <p class="dt1">กิจกรรม ‘Tag คู่กัด จัดคอฟฟี่ ดีคราฟท์’ กับ มิสเตอร์ โดนัท คอฟฟี่ ดีคราฟท์</p>
+        <div class="line"></div><br>
+        <p class="dt2">ครั้งแรก! ที่มิสเตอร์ โดนัท คอฟฟี่ ดีคราฟท์ จะชวนคุณมากัด #กาแฟกัดได้ โดนัทเมนูใหม่ หอมนุ่มเต็มคำ
+          เข้มข้นรสกาแฟ กับ กิจกรรม ‘Tag คู่กัด จัดคอฟฟี่ ดีคราฟท์’</p><br><br>
+        <div class="line1_1"></div><br><br>
+      </div>
+      <div class="col-lg-4 txt1">
+        <img onclick="onclickmenu_2()" class="imgopa" src="img/newact_3.jpg"><br><br>
+        <p class="dt1">ร่วมส่งไอเดียเครื่องดื่มสุดคลู ที่อยากให้มีที่มิสเตอร์ โดนัท</p>
+        <div class="line"></div><br>
+        <p class="dt2">50 ไอเดียแรก รับบัตรชมภาพยนต์ 2 ใบ มูลค่า 360.- (รวมจำนวน 50 รางวัล)
+          ร่วมสนุกในวันที่ 1 ก.พ. 2562 เวลา 17.00-20.00 น. ช่วง On-Air เท่านั้น</p><br><br>
+        <div class="line1_1"></div><br><br>
+      </div>
+      <div class="col-lg-4 txt1">
+        <img onclick="onclickmenu_3()" class="imgopa" src="img/newact_4.jpg"><br><br>
+        <p class="dt1">2 มี.ค. นี้ มาฮาพร้อมๆ กัน กับซาร่า ปะทะ Mister Donut Summer Fruity</p>
+        <div class="line"></div><br>
+        <p class="dt2">2 มี.ค. นี้ มาฮาพร้อมๆ กันกับซาร่า และ Mister Donut Summer Fruity มา Live กันสดๆ</p><br><br>
+        <div class="line1_1"></div><br><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 txt1">
+        <img onclick="onclickmenu_4()" class="imgopa" src="img/newact_5.jpg"><br><br>
+        <p class="dt1">มอบเงินสบทบทุนมูลนิธิรามาธิบดีฯ</p>
+        <div class="line"></div><br>
+        <p class="dt2">มิสเตอร์ โดนัท มอบงบประมาณสนับสนุนให้แก่มูลนิธิรามาธิบดี สืบเนื่องจากกิจกรรม “มิสเตอร์ โดนัท –
+          โดนัทเดย์ ส่งต่อความสุข...ไม่สิ้นสุดปีที่ 8"</p><br><br>
+        <div class="line1_1"></div><br><br>
+      </div>
+      <div class="col-lg-4 txt1">
+        <img onclick="onclickmenu_5()" class="imgopa" src="img/newact_6.jpg"><br><br>
+        <p class="dt1">ชี้แจงกรณีพนักงานมีพฤติกรรมที่ไม่เหมาะสมเผยแพร่ในสังคมออนไลน์</p>
+        <div class="line"></div><br>
+        <p class="dt2">มิสเตอร์ โดนัท ประเทศไทย ภายใต้การบริหารงานโดย บริษัท เซ็นทรัล เรสตอรองส์ กรุ๊ป จำกัด (ซีอาร์จี)
+          ขอเรียนชี้แจงว่าเหตุการณ์ที่ถูกแชร์บนสื่อออนไลน์</p><br><br>
+        <div class="line1_1"></div><br><br>
+      </div>
+      <div class="col-lg-4 txt1">
+        <img onclick="onclickmenu_6()" class="imgopa" src="img/newact_7.jpg"><br><br>
+        <p class="dt1">โดนัทหน้าพิเศษ (Happiness Donut)</p>
+        <div class="line"></div><br>
+        <p class="dt2">ซื้อโดนัทหน้าพิเศษ (Happiness Donut) 1 ชิ้น เท่ากับร่วมบริจาค 1 บาท เพื่อสมทบทุนมูลนิธิรามาธิบดี
+        </p><br><br>
+        <div class="line1_1"></div><br><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 txt1">
+        <img onclick="onclickmenu_7()" class="imgopa" src="img/newact_8.jpg"><br><br>
+        <p class="dt1">The No. 1 Brand Thailand Awards</p>
+        <div class="line"></div><br>
+        <p class="dt2">มิสเตอร์ โดนัท ประกาศความสำเร็จ รับรางวัล The No.1 Brand Thailand Awards 2016-2017</p><br><br>
+        <div class="line1_1"></div><br><br>
+      </div>
+    </div>
+  </div>
+  <!-- ปิด -->
+  <footer>
+    <div class="pt-5 pb-5" id="footer-text-top">
+      <a href="/index.html" class="footer-text" style="text-decoration: none">HOME</a>
+      <a href="/about-us/about_us.html" class="footer-text" style="text-decoration: none">ABOUT US</a>
+      <a href="/mains/menu.html" class="footer-text" style="text-decoration: none">MENU</a>
+      <a href="/promotion/promotion.html" class="footer-text" style="text-decoration: none">PROMOTIONS</a>
+      <a href="/new&activity/index.html" class="footer-text" style="text-decoration: none">NEWS & ACTIVITY</a>
+      <a href="/mains/snack.html" class="footer-text" style="text-decoration: none">SNACK BOX & CATERING</a>
+      <a href="/branch/branch.html" class="footer-text" style="text-decoration: none">BRANCH</a>
+      <a href="/career/career.html" class="footer-text" style="text-decoration: none">CAREERS</a>
+      <a href="/contact-us/contact_us.html" class="footer-text" style="text-decoration: none">CONTACT US</a>
+    </div>
+    <div class="box-icon p-1 pb-0 pt-3">
+      <ul class="icon-move">
+        <a href="https://www.facebook.com/MisterDonutThailand" target="_blank" class="fb" style="text-decoration: none">
+          <img src="/navbar/img/fb.png" alt="facebook" class="icon-bottom" />
+        </a>
+        <a href="https://www.instagram.com/misterdonut_thailand/" target="_blank" class="ig"
+          style="text-decoration: none">
+          <img src="/navbar/img/ig.png" alt="instagram" class="icon-bottom" />
+        </a>
+        <a href="https://twitter.com/MisterdonutThai" target="_blank" class="tw" style="text-decoration: none">
+          <img src="/navbar/img/tw.png" alt="twitter" class="icon-bottom" />
+        </a>
+        <a href="https://www.youtube.com/channel/UCJ9RxPxMsQabgddxUKBHakg" target="_blank" class="yt"
+          style="text-decoration: none">
+          <img src="/navbar/img/yt.png" alt="youtube" class="icon-bottom" />
+        </a>
+        <a href="http://line.me/ti/p/%40mister.donut" target="_blank" class="line" style="text-decoration: none">
+          <img src="/navbar/img/line.png" alt="line" class="icon-bottom" />
+        </a>
+      </ul>
+    </div>
+    <div>
+      <p class="copyright">
+        Copyright@2017 by Central Restaurants Group Co.,Ltd. All right
+        reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

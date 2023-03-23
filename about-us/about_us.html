@@ -1,0 +1,190 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/navbar/nav-bar.css" />
+  <link rel="icon" href="http://www.misterdonut.co.th/img/favicon.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="dbout_us.css">
+  <script src="/navbar/script.js"></script>
+  <script src="/about_us.js"></script>
+  <title>About-us</title>
+</head>
+
+<body>
+  <div class="nav">
+    <div class="container nav-top pb-0">
+      <p id="hello" class="pt-2">HELLO...</p>
+      <ul class="pt-2 main-contact pb-0">
+        <a href="https://www.facebook.com/MisterDonutThailand" target="_blank" class="text-icon fb"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/20/20837.png" alt="facebook" class="icon-top" />
+          <span>Facebook</span>
+        </a>
+        <a href="https://www.instagram.com/misterdonut_thailand/" target="_blank" class="text-icon ig"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384089.png" alt="instagram" class="icon-top" />
+          <span>Instagram</span>
+        </a>
+        <a href="https://twitter.com/MisterdonutThai" target="_blank" class="text-icon tw"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111819.png" alt="twitter" class="icon-top" />
+          <span>Twitter</span>
+        </a>
+        <a href="https://www.youtube.com/channel/UCJ9RxPxMsQabgddxUKBHakg" target="_blank" class="text-icon yt"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/37/37922.png" alt="youtube" class="icon-top" />
+          <span>Youtube</span>
+        </a>
+        <a href="http://line.me/ti/p/%40mister.donut" target="_blank" class="text-icon line"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111527.png" alt="line" class="icon-top" />
+          <span>Line</span>
+        </a>
+      </ul>
+    </div>
+    <div class="nav-bottom row pt-0" id="nav-bottom">
+      <div class="container">
+        <div class="col-4">
+          <a href="/index.html" style="text-decoration: none">
+            <img src="/navbar/img/logo.png" alt="logo" class="logo" id="logo" />
+          </a>
+        </div>
+        <div class="small row col-4" id="small">
+          <a href="/career/career.html" class="nav-text-top" style="text-decoration: none">CAREERS</a>
+          <p>|</p>
+          <a href="/contact-us/contact_us.html" class="nav-text-top" style="text-decoration: none">CONTACT US</a>
+        </div>
+        <div class="nav-text-bottom" id="nav-text-bottom">
+          <a href="/index.html" class="nav-text" style="text-decoration: none">HOME</a>
+          <a href="/about-us/about_us.html" class="nav-text" style="text-decoration: none">ABOUT US</a>
+          <a href="/mains/menu.html" class="nav-text" style="text-decoration: none">MENU</a>
+          <a href="/promotion/promotion.html" class="nav-text" style="text-decoration: none">PROMOTIONS</a>
+          <a href="/new&activity/index.html" class="nav-text" style="text-decoration: none">NEWS & ACTIVITY</a>
+          <a href="/mains/snack.html" class="nav-text" style="text-decoration: none">SNACK BOX & CATERING</a>
+          <a href="/branch/branch.html" class="nav-text" style="text-decoration: none">BRANCH</a>
+        </div>
+        <div>
+          <img src="/navbar/img/56763.png" alt="" class="menu" id="menu" onclick="menu()" />
+        </div>
+      </div>
+      <div class="hide" id="hide">
+        <img src="/navbar/img/1828747.png" alt="close" id="close" onclick="closed()" />
+        <div class="hide-text-top p-4">
+          <a href="/index.html" class="hide-text" style="text-decoration: none">HOME</a><br />
+          <a href="/about-us/about_us.html" class="hide-text" style="text-decoration: none">ABOUT US</a><br />
+          <a href="/mains/menu.html" class="hide-text" style="text-decoration: none">MENU</a><br />
+          <a href="/promotion/promotion.html" class="hide-text" style="text-decoration: none">PROMOTIONS</a><br />
+          <a href="/new&activity/index.html" class="hide-text" style="text-decoration: none">NEWS & ACTIVITY</a><br />
+          <a href="/mains/snack.html" class="hide-text" style="text-decoration: none">SNACK BOX & CATERING</a><br />
+          <a href="/branch/branch.html" class="hide-text" style="text-decoration: none">BRANCH</a><br />
+          <a href="/career/career.html" class="hide-text" style="text-decoration: none">CAREERS </a><br />
+          <a href="/contact-us/contact_us.html" class="hide-text" style="text-decoration: none">CONTACT US</a><br />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="height: 100px;"></div>
+  <!-- Open -->
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-12">
+        <h1 class="about_us">ABOUT US</h1>
+      </div>
+    </div>
+    <div class="row pt-5 pb-5">
+      <div class="col-12">
+        <img src="/about-us/img/about-banner.jpg" class="img-main">
+      </div>
+    </div>
+    <div class="row pt-5 pb-5">
+      <div class="col-lg-6">
+        <p class="detail1_1">เกี่ยวกับ มิสเตอร์ โดนัท</p>
+        <p class="detail1_2">สามทศวรรษแห่งความสำเร็จ และก้าวย่างแห่งการเปลี่ยนแปลงอย่างมั่นคง</p>
+        <p class="detail1_3">ตลอดสามทศวรรษที่ผ่านมา มิสเตอร์ โดนัท ประเทศไทยถือเป็นต้นกำเนิดของธุรกิจอาหาร
+          โดยเป็นที่รู้จักและยอมรับในหมู่ผู้บริโภคชาวไทยอย่างกว้างขวาง จนในปัจจุบัน ได้ขยายสาขามากกว่า
+          300 สาขาในกว่า 70 จังหวัดทั่วประเทศไทย โดยตลอดระยะเวลาที่ผ่านมา มิสเตอร์ โดนัท
+          ได้มีวิวัฒนาการรูปลักษณ์ของร้านให้ทันสมัยอย่างต่อเนื่อง อีกทั้งยังมีการนำเสนอโดนัทและผลิตภัณฑ์ชนิดใหม่ๆ
+          อย่างต่อเนื่อง
+          เพื่อตอบสนองต่อความต้องการให้กับลูกค้า ความเป็นมาของมิสเตอร์ โดนัท โดยสังเขปมีดังต่อไปนี้</p>
+      </div>
+      <div class="col-6">
+        <img src="/about-us/img/about-donut.png" class="donut" id="donut">
+      </div>
+    </div>
+    <div class="row pt-5 pb-5">
+      <div class="col-lg-6">
+        <img class="img2" src="/about-us/img/about-donut-2.png">
+      </div>
+      <div class="col-lg-6">
+        <p class="detail2_1">จุดเริ่มต้นของ มิสเตอร์ โดนัท ในประเทศไทย</p>
+        <p class="detail2_2">ในปี พ.ศ. 2521 คุณสุทธิชัย จิราธิวัฒน์ และคุณสุทธิเกียรติ จิราธิวัฒน์ ในนามของ บริษัท
+          ไทยแฟรนไชซิ่ง จำกัด สองพี่น้องผู้บุกเบิกตลาดโดนัทเป็นเจ้าแรกในประเทศไทย โดยเริ่ม ก่อตั้งร้านมิสเตอร์
+          โดนัท สาขาแรกที่สยามสแควร์ ทำให้คนไทยหันมานิยมรับประทานโดนัท กันมากขึ้น ต่อมาในปี พ.ศ. 2546 มิสเตอร์
+          โดนัท ได้ เข้ามาอยู่ภายใต้การบริหารงานของ บริษัท เซ็นทรัล เรสตอรองส์ กรุ๊ป จำกัด หรือ CRG มิสเตอร์ โดนัท
+          ในฐานะผู้นำตลาด
+          โดนัทในประเทศไทยยังคงมุ่งมั่นสร้างสรรค์โดนัทคุณภาพภายใต้สโลแกน “ความสุขใหม่ใหม่ มีได้เสมอ”
+          ด้วยการมอบความอร่อยของโดนัทแบบสดใหม่ที่ผลิตจากครัวเปิด
+          เพื่อให้ลูกค้า ได้พบกับผลิตภัณฑ์ ตลอดจนประสบการณ์ใหม่ๆ ในการเลือกลิ้มลองความหลากหลาย
+          ซึ่งลูกค้าสามารถเลือกได้ด้วยตัวเอง ด้วยบริการแบบ Self Selection</p>
+        <p class="detail2_3">หลากหลายความอร่อยที่ลงตัว</p>
+        <p class="detail2_4">มิสเตอร์ โดนัท สรรค์สร้างโดนัทสดใหม่หลากหลายรูปแบบที่พร้อมเสิร์ฟความอร่อยของ
+          โดนัทที่ทำใหม่ตลอดวันให้กับทุกๆ
+          คนในทุกๆ วัน ส่งตรงจากสาขาครัวที่มีครอบคลุมอยู่ ทั่วประเทศ ด้วยเคล็ดลับของรสชาติในแบบของ มิสเตอร์ โดนัท
+          ที่มีสูตรของเนื้อแป้งที่ แตกต่างกัน และวัตถุดิบบางชนิดที่ส่งตรงจากประเทศญี่ปุ่นกว่า 36 ปีแห่งความสำเร็จ
+          ที่ผ่านมา
+          มิสเตอร์ โดนัท ได้มีการพัฒนาผลิตภัณฑ์ใหม่ ซึ่งเน้นถึงความคุ้มค่าและสะท้อน ถึงความเป็นญี่ปุ่น (Japanese
+          Inspired)
+          อย่างเต็มรูปแบบ อาทิ พอน เดอ ริง ผลิตภัณฑ์ยอดนิยมยาวนานด้วยเอกลักษณ์ของเนื้อแป้ง สูตรเฉพาะจากญี่ปุ่น</p>
+      </div>
+    </div>
+  </div>
+  <!-- Close -->
+  <footer>
+    <div class="pt-5 pb-5" id="footer-text-top">
+      <a href="/index.html" class="footer-text" style="text-decoration: none">HOME</a>
+      <a href="/about-us/about_us.html" class="footer-text" style="text-decoration: none">ABOUT US</a>
+      <a href="/mains/menu.html" class="footer-text" style="text-decoration: none">MENU</a>
+      <a href="/promotion/promotion.html" class="footer-text" style="text-decoration: none">PROMOTIONS</a>
+      <a href="/new&activity/index.html" class="footer-text" style="text-decoration: none">NEWS & ACTIVITY</a>
+      <a href="/mains/snack.html" class="footer-text" style="text-decoration: none">SNACK BOX & CATERING</a>
+      <a href="/branch/branch.html" class="footer-text" style="text-decoration: none">BRANCH</a>
+      <a href="/career/career.html" class="footer-text" style="text-decoration: none">CAREERS</a>
+      <a href="/contact-us/contact_us.html" class="footer-text" style="text-decoration: none">CONTACT US</a>
+    </div>
+    <div class="box-icon p-1 pb-0 pt-3">
+      <ul class="icon-move">
+        <a href="https://www.facebook.com/MisterDonutThailand" target="_blank" class="fb" style="text-decoration: none">
+          <img src="/navbar/img/fb.png" alt="facebook" class="icon-bottom" />
+        </a>
+        <a href="https://www.instagram.com/misterdonut_thailand/" target="_blank" class="ig"
+          style="text-decoration: none">
+          <img src="/navbar/img/ig.png" alt="instagram" class="icon-bottom" />
+        </a>
+        <a href="https://twitter.com/MisterdonutThai" target="_blank" class="tw" style="text-decoration: none">
+          <img src="/navbar/img/tw.png" alt="twitter" class="icon-bottom" />
+        </a>
+        <a href="https://www.youtube.com/channel/UCJ9RxPxMsQabgddxUKBHakg" target="_blank" class="yt"
+          style="text-decoration: none">
+          <img src="/navbar/img/yt.png" alt="youtube" class="icon-bottom" />
+        </a>
+        <a href="http://line.me/ti/p/%40mister.donut" target="_blank" class="line" style="text-decoration: none">
+          <img src="/navbar/img/line.png" alt="line" class="icon-bottom" />
+        </a>
+      </ul>
+    </div>
+    <div>
+      <p class="copyright">
+        Copyright@2017 by Central Restaurants Group Co.,Ltd. All right
+        reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

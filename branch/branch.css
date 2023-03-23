@@ -1,0 +1,61 @@
+h1 {
+  line-height: 1.5;
+  font-size: 17px;
+  font-weight: 600;
+}
+span {
+  font-size: 27px;
+  color: #673b0f;
+}
+.top {
+  color: #673b0f;
+  font-size: 35px;
+  font-weight: 800;
+}
+.head {
+  color: #e10f21;
+  font-size: 25px;
+  font-weight: 800;
+}
+.icon-low {
+  width: 25px;
+  padding-right: 7px;
+}
+.icon-log {
+  width: 30px;
+}
+select {
+  background: url(http://www.misterdonut.co.th/img/select.png) no-repeat right
+    #f2f2f2;
+  font-size: 16px;
+  color: #666;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 9px;
+  text-indent: 1px;
+  text-overflow: "";
+  border: none;
+  -webkit-appearance: none;
+}
+p{
+    color: rgb(131, 131, 131);
+    font-size: 15px;
+}
+#click {
+    font-size: 25px;
+    font-weight: 700;
+    color: #E10F21;
+}
+#click:hover{
+    color: #E10F21;
+}
+#name p{
+    color: #E10F21;
+    font-size: 23px;
+    font-weight: 700;
+}
+.text-top{
+    color: #673B0F;
+    font-size: 15px;
+    font-weight: 700;
+}

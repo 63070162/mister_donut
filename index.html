@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- --------------------------------------------------------------- -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/mains/css/nav-bar.css" />
+  <link rel="stylesheet" href="/mains/css/home.css" />
+
+  <link rel="icon" href="http://www.misterdonut.co.th/img/favicon.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <title>Home</title>
+
+</head>
+
+<body id="bodys">
+  <div class="nav">
+    <div class="container nav-top pb-0">
+      <p id="hello" class="pt-2">HELLO...</p>
+      <ul class="pt-2 main-contact pb-0">
+        <a href="https://www.facebook.com/MisterDonutThailand" target="_blank" class="text-icon fb"
+          style="text-decoration: none">
+          <img src="/navbar/img/fb.png" alt="facebook" class="icon-top" />
+          <span>Facebook</span>
+        </a>
+        <a href="https://www.instagram.com/misterdonut_thailand/" target="_blank" class="text-icon ig"
+          style="text-decoration: none">
+          <img src="/navbar/img/ig.png" alt="instagram" class="icon-top" />
+          <span>Instagram</span>
+        </a>
+        <a href="https://twitter.com/MisterdonutThai" target="_blank" class="text-icon tw"
+          style="text-decoration: none">
+          <img src="/navbar/img/tw.png" alt="twitter" class="icon-top" />
+          <span>Twitter</span>
+        </a>
+        <a href="https://www.youtube.com/channel/UCJ9RxPxMsQabgddxUKBHakg" target="_blank" class="text-icon yt"
+          style="text-decoration: none">
+          <img src="/navbar/img/yt.png" alt="youtube" class="icon-top" />
+          <span>Youtube</span>
+        </a>
+        <a href="http://line.me/ti/p/%40mister.donut" target="_blank" class="text-icon line"
+          style="text-decoration: none">
+          <img src="/navbar/img/line.png" alt="line" class="icon-top" />
+          <span>Line</span>
+        </a>
+      </ul>
+    </div>
+
+
+    <div class="nav-bottom row pt-0" id="nav-bottom">
+      <div class="container">
+        <div class="container">
+          <div class="col-4">
+            <a href="/index.html" style="text-decoration: none">
+              <img src="/navbar/img/logo.png" alt="logo" class="logo" id="logo" />
+            </a>
+          </div>
+          <div class="small" id="small">
+            <a href="/career/career.html" class="nav-text-top" style="text-decoration: none">CAREERS</a>
+            <p>|</p>
+            <a href="/contact-us/contact_us.html" class="nav-text-top" style="text-decoration: none">CONTACT US</a>
+          </div>
+          <div class="nav-text-bottom" id="nav-text-bottom">
+            <a href="/index.html" class="nav-text" style="text-decoration: none">HOME</a>
+            <a href="/about-us/about_us.html" class="nav-text" style="text-decoration: none">ABOUT US</a>
+            <a href="/mains/menu.html" class="nav-text" style="text-decoration: none">MENU</a>
+            <a href="/promotion/promotion.html" class="nav-text" style="text-decoration: none">PROMOTIONS</a>
+            <a href="/new&activity/index.html" class="nav-text" style="text-decoration: none">NEWS & ACTIVITY</a>
+            <a href="/mains/snack.html" class="nav-text" style="text-decoration: none">SNACK BOX & CATERING</a>
+            <a href="/branch/branch.html" class="nav-text" style="text-decoration: none">BRANCH</a>
+          </div>
+          <div>
+            <img src="/navbar/img/56763.png" alt="" class="menu" id="menu" onclick="menu()" />
+          </div>
+        </div>
+      </div>
+
+      <div class="hide" id="hide">
+        <img src="/navbar/img/1828747.png" alt="close" id="close" onclick="closed()" />
+        <div class="hide-text-top p-4">
+          <a href="/index.html" class="hide-text" style="text-decoration: none">HOME</a><br />
+          <a href="/about-us/about_us.html" class="hide-text" style="text-decoration: none">ABOUT US</a><br />
+          <a href="/mains/menu.html" class="hide-text" style="text-decoration: none">MENU</a><br />
+          <a href="/promotion/promotion.html" class="hide-text" style="text-decoration: none">PROMOTIONS</a><br />
+          <a href="/new&activity/index.html" class="hide-text" style="text-decoration: none">NEWS & ACTIVITY</a><br />
+          <a href="/mains/snack.html" class="hide-text" style="text-decoration: none">SNACK BOX & CATERING</a><br />
+          <a href="/branch/branch.html" class="hide-text" style="text-decoration: none">BRANCH</a><br />
+          <a href="/career/career.html" class="hide-text" style="text-decoration: none">CAREERS </a><br />
+          <a href="/contact-us/contact_us.html" class="hide-text" style="text-decoration: none">CONTACT US</a><br />
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div style="height:130px;"></div>
+  <!-- เนื้อหา เปิด-->
+  <!-- ----------------------------mo1---------------------------------- -->
+  <div class="main-popup d-flex justify-content-center" id="main-popup">
+    <div class="popup1-1 ">
+
+      <div class="popup1-2">
+        <img class="img-popup" src="/mains/upload_file/menu/170523100831_170419174734_04-Pondering-White-Chocolate-big.png"
+          alt="">
+        <h2 class="txt-red">พอน เดอ ริง ไวท์ ช็อกโกแลต</h2>
+        <h3 class="txt-brow">Pon de ring White Chocolate</h3>
+        <div class="line-menu-popup"></div>
+        <p class="txt-small">พอน เดอ ริง นุ่ม...หนึบ สูตรลับความอร่อยไม่เหมือนใคร เคลือบ<br>ด้วยไวท์ช็อกโกแลต
+          และแต่งแต้มเพิ่มเติมด้วยลายเส้นช็อกโกแลต</p>
+        <p></p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" onclick="outclickmenu('main-popup', 'bodys')"><img src="/mains/img/x-close.png"
+            alt=""></a>
+      </div>
+
+    </div>
+  </div>
+  <!-- ----------------------------mo2---------------------------------- -->
+  <div class="main-popup d-flex justify-content-center" id="main-popup1">
+    <div class="popup1-1">
+
+      <div class="popup1-2">
+        <img class="img-popup" src="/mains/upload_file/menu/190705045034_choco_ring_big_update.png" alt="">
+        <h2 class="txt-red">ช็อกโกแลต ริง</h2>
+        <h3 class="txt-brow">Chocolate ring</h3>
+        <div class="line-menu-popup"></div>
+        <p class="txt-small">โดนัทยีสต์ เนื้อนุ่มแต่งหน้าด้วยช็อกโกแลต
+          หวานอร่อยถึงใจเพื่อคน<br>รักช็อกโกแลตตัวจริง&nbsp;</p>
+        <p></p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" onclick="outclickmenu('main-popup1', 'bodys')"><img src="/mains/img/x-close.png"
+            alt=""></a>
+      </div>
+
+    </div>
+  </div>
+  <!-- ----------------------------mo3---------------------------------- -->
+  <div class="main-popup d-flex justify-content-center" id="main-popup2">
+    <div class="popup1-1 ">
+
+      <div class="popup1-2">
+        <img class="img-popup" src="/mains/upload_file/menu/170420101257_01-Honey-Dipped-big.png" alt="">
+        <h2 class="txt-red">ฮันนี่ดิป</h2>
+        <h3 class="txt-brow">Honey Dipped</h3>
+        <div class="line-menu-popup"></div>
+        <p class="txt-small">โดนัทต้นตำรับ หอม..หวาน..เนื้อนุ่ม และครบรสด้วยน้ำตาลเกรซคุณภาพดี&nbsp;</p>
+        <p></p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" onclick="outclickmenu('main-popup2', 'bodys')"><img src="/mains/img/x-close.png"
+            alt=""></a>
+      </div>
+
+    </div>
+  </div>
+  <!-- ----------------------------mo4---------------------------------- -->
+  <div class="main-popup d-flex justify-content-center" id="main-popup3">
+    <div class="popup1-1">
+
+      <div class="popup1-2">
+        <img class="img-popup" src="/mains/upload_file/menu/170420104055_04-Strawberry-ring-big.png" alt="">
+        <h2 class="txt-red">สตรอเบอร์รี่ ริง</h2>
+        <h3 class="txt-brow">Strawberry ring</h3>
+        <div class="line-menu-popup"></div>
+        <p class="txt-small">โดนัทยีสต์ เนื้อนุ่มหอมหวาน อร่อย สดใส แต่งหน้าโดนเด่นด้วยท๊อปปิ้งสตรอเบอร์รี่&nbsp;</p>
+        <p></p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" onclick="outclickmenu('main-popup3', 'bodys')"><img src="/mains/img/x-close.png"
+            alt=""></a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ----------------------------update--mo1---------------------------------- -->
+  <div class="main-popup d-flex justify-content-center" id="main-popup-1">
+    <div class="popup1-1 up-popup1">
+
+      <div class="popup1-2 up-popup2">
+        <img class="img-popup" src="/mains/upload_file/update_zone/210701121436_KATSUYA_Hoc_Jun21_1040x1040_Line OA.jpeg"
+          alt="">
+        <h2 class="uptxt-red">ต้องลอง! TONKATSU Sandwich</h2>
+        <div class="line-menu-popup"></div>
+        <p class="uptxt-small">ใหม่ !&nbsp; TONKATSU Sandwich จาก Katsuya พร้อมเสิร์ฟแล้วที่ร้าน Mister
+          Donut&nbsp;<br />
+          กับแซนด์วิชทงคัตสึสันนอก ขนมปังหนานุ่มๆ กับทงคัตสึกรอบๆ และซอสสูตรเฉพาพรสชาติกลมกล่อม<br />
+          <br />
+          พร้อมเสิร์ฟให้ทุกคนแล้ววันนี้ที่ร้าน Mister Donut ทั้ง 19 สาขาทีร่วมรายการ ในราคาชิ้นละ 49.-
+          เท่านั้น&nbsp;<br />
+          .<br>Link : <a href="http://www.misterdonut.co.th/promotions.php" class="txt-brow"
+            style="text-decoration: none; font-size: 20px;">http://www.misterdonut.co.th/promotions.php</a>
+        </p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" style="left: 655px;" onclick="outclickmenu_1('main-popup-1', 'bodys')"><img
+            src="/mains/img/x-close.png" alt=""></a>
+      </div>
+
+    </div>
+  </div>
+  <!-- ----------------------------update--mo2---------------------------------- -->
+  <div class="main-popup d-flex justify-content-center" id="main-popup-2">
+    <div class="popup1-1 up-popup1">
+
+      <div class="popup1-2 up-popup2">
+        <img class="img-popup" src="/mains/upload_file/update_zone/210414145104_สาขาจำหน่ายโซดา.jpg" alt="">
+        <h2 class="uptxt-red">Fresh Soda</h2>
+        <div class="line-menu-popup"></div>
+        <p class="uptxt-small">มิสเตอร์โดนัท &quot;น้ำผลไม้โซดา&quot; 4 รสชาติ (สตรอเบอร์รี่, บลูเบอร์รี่, มะม่วง,
+          ลิ้นจี่โซดา)<br />
+          ตั้งแต่วันที่ 1 เม.ย. 64 เป็นต้นไป หรือจนกว่าจะมีการเปลี่ยนแปลง<br />
+          เฉพาะมิสเตอร์โดนัทสาขาที่ร่วมรายการ<br />
+          แพ็คละ 59.-&nbsp;*หากเพิ่มท้อปปิ้ง (เสาวรสป๊อป) เพิ่มเงิน 10<br />
+          สุดพิเศษรับฟรี! โดนัท 1 ชิ้น (ชิ้นละ 22.-) เมื่อซื้อน้ำผลไม้โซดา 1 แพ็ค (แพ็คละ 59.-)<br>Link : <a
+            href="http://www.misterdonut.co.th/promotions.php#myModal105" class="txt-brow"
+            style="text-decoration: none; font-size: 20px;">http://www.misterdonut.co.th/promotions.php#myModal105</a>
+        </p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" style="left: 655px;" onclick="outclickmenu_1('main-popup-2', 'bodys')"><img
+            src="/mains/img/x-close.png" alt=""></a>
+      </div>
+
+    </div>
+  </div>
+  <!-- ----------------------------update--mo3---------------------------------- -->
+  <div class="main-popup d-flex justify-content-center" id="main-popup-3">
+    <div class="popup1-1 up-popup1">
+
+      <div class="popup1-2 up-popup2">
+        <img class="img-popup" src="/mains/upload_file/update_zone/190425091642_Mister Donut  Croissant  หน้าปก.jpg" alt="">
+        <h2 class="uptxt-red">ใหม่! ครัวซองค์ นำเข้าจากฝรั่งเศส 100%</h2>
+        <div class="line-menu-popup"></div>
+        <p class="uptxt-small"><br />
+          มีจำหน่ายเฉพาะ 5 สาขาเท่านั้น<br />
+          1. สาขา เซ็นทรัลสีลม ทาวเวอร์ ชั้น 1<br />
+          2. สาขา รพ. ธรรมศาสตร์ ชั้น 1<br />
+          3. สาขา รพ. ภูมิพล ชั้น 1<br />
+          4. สาขา เซ็นทรัล พลาซาพระราม 3&nbsp; ชั้น 5<br />
+          5. สาขา เซ็นทรัล พลาซาพระราม 9&nbsp; ชั้น B<br />
+          <br />
+          <br />
+          <br />
+          - Tuna Croissant Sandwichทูน่า (ครัวซองค์แซนวิช) ชิ้นละ 39 บ.<br />
+          - Crab Salad Croissant Sandwich (ปูอัด ครัวซองค์แซนวิช) ชิ้นละ 39 บ.<br />
+          - Ham Cheese Croissant Sandwich (แฮมชีส ครัวซองค์แซนวิช) ชิ้นละ 39 บ.<br />
+          - Cranberry Custard Twist (แครนเบอร์รี่ คัสตาร์ด ทวิสต์) ชิ้นละ 22 บ.<br />
+          - Chocolate Custard Twist (ช็อกโกแลต คัสตาร์ด ทวิสต์) ชิ้นละ 22 บ.<br />
+          - Mini Chocolate Croissant (มินิ ช็อกโกแลต ครัวซองค์) ชิ้นละ 22 บ.<br />
+          - Mini Custard Croissant (มินิ คัสตาร์ด ครัวซองค์) ชิ้นละ 22 บ.<br />
+          - French Butter Croissant (ครัวซองค์เนยสด) ชิ้นละ 49 บ.<br>Link : <a
+            href="http://www.misterdonut.co.th/index.php" class="txt-brow"
+            style="text-decoration: none; font-size: 20px;">http://www.misterdonut.co.th/index.php</a>
+        </p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" style="left: 655px;" onclick="outclickmenu_1('main-popup-3', 'bodys')"><img
+            src="/mains/img/x-close.png" alt=""></a>
+      </div>
+
+    </div>
+  </div>
+  <!-- ----------------------------update--mo4---------------------------------- -->
+  <div class="main-popup d-flex justify-content-center" id="main-popup-4">
+    <div class="popup1-1 up-popup1">
+
+      <div class="popup1-2 up-popup2">
+        <img class="img-popup" src="/mains/upload_file/update_zone/190709081224_Facebook--1040-x-1040-op3.jpg" alt="">
+        <h2 class="uptxt-red">มิสเตอร์ โดนัทตัวอักษร สุขสันต์ (Mister Donut Alphabet)</h2>
+        <div class="line-menu-popup"></div>
+        <p><br>
+        <div class="uptxt-small"><span style="font-size:13px;color: #555;">ราคาโดนัท ชุดแฮปปี้เบิรด์เดย์&nbsp;
+            เซตละ&nbsp; 259 บาท (จากราคาปกติ 350 บาท )<br />
+            หมายเหตุ&nbsp; ประกอบด้วยโดนัท ตัวอักษร&nbsp; 13 ชิ้น&nbsp;<br />
+            <br />
+            สามารถสั่งจองสินค้าล่วงหน้าอย่างน้อย1 วัน เฉพาะสาขาที่ร่วมรายการ ดังนี้ครับ<br />
+            <br />
+            1 เซ็นเตอร์ วัน </span></div>
+
+        <div><span style="font-size:13px;color: #555;">2 เซ็นทรัล สีลมทาวเวอร์ ชั้น 1 </span></div>
+
+        <div><span style="font-size:13px;color: #555;">3 โรบินสัน บางรัก ชั้น B </span></div>
+
+        <div><span style="font-size:13px;color: #555;">4 บิ๊กซี ลาดพร้าว 2 </span></div>
+
+        <div><span style="font-size:13px;color: #555;">5 บิ๊กซี ลำลูกกา </span></div>
+
+        <div><span style="font-size:13px;color: #555;">6 บิ๊กซี ลำลูกกา คลอง 4 </span></div>
+
+        <div><span style="font-size:13px;color: #555;">7 บิ๊กซี ปทุมธานี </span></div>
+
+        <div><span style="font-size:13px;color: #555;">8 บิ๊กซี ราชดำริ </span></div>
+
+        <div><span style="font-size:13px;color: #555;">9 บิ๊กซี รังสิต </span></div>
+
+        <div><span style="font-size:13px;color: #555;">10 บิ๊กซี รังสิต 2 </span></div>
+
+        <div><span style="font-size:13px;color: #555;">11 บิ๊กซี รังสิต คลอง 3 </span></div>
+
+        <div><span style="font-size:13px;color: #555;">12 บิ๊กซี รังสิต คลอง 6 </span></div>
+
+        <div><span style="font-size:13px;color: #555;">13 บิ๊กซี รามคำแหง </span></div>
+
+        <div><span style="font-size:13px;color: #555;">14 บิ๊กซี หัวหมาก </span></div>
+
+        <div><span style="font-size:13px;color: #555;">15 บิ๊กซี สุวินทวงศ์ </span></div>
+
+        <div><span style="font-size:13px;color: #555;">16 บิ๊กซี หนองจอ</span></div>
+
+        <div><span style="font-size:13px;color: #555;">17 โลตัส พระราม 1 </span></div>
+
+        <div><span style="font-size:13px;color: #555;">18 โลตัส&nbsp; บ้านฟ้าปิยรมย์ </span></div>
+
+        <div><span style="font-size:13px;color: #555;">19 โลตัส&nbsp; รังสิต คลอง 4 </span></div>
+
+        <div><span style="font-size:13px;color: #555;">20 โลตัส&nbsp; รังสิต คลอง 7 </span></div>
+
+        <div><span style="font-size:13px;color: #555;">21 ยูเนี่ยน มอลล์</span></div>
+
+        <div><span style="font-size:13px;color: #555;">22 สยามพารากอน</span></div>
+
+        <div><span style="font-size:13px;color: #555;">23 ประตูน้ำ</span></div>
+
+        <div><span style="font-size:13px;color: #555;">24 ริเวอร์ไซด์ พลาซ่า</span></div>
+
+        <div><span style="font-size:13px;color: #555;">25 แฟชั่น ไอส์แลนด์&nbsp;</span></div>
+
+        <div><span style="font-size:13px;color: #555;">26 รพ. ตำรวจ</span></div>
+
+        <div><span style="font-size:13px;color: #555;">27 รพ. เวชธานี</span></div>
+
+        <div><span style="font-size:13px;color: #555;">28 รพ. ธรรมศาสตร์เฉลิมพระเกียรติ</span></div>
+
+        <div><span style="font-size:13px;color: #555;">29 ฟิวเจอร์พาร์ครังสิต&nbsp; ชั้น 1</span></div>
+
+        <div><span style="font-size:13px;color: #555;">30 ฟิวเจอร์พาร์ครังสิต&nbsp; ชั้น 3</span></div>
+
+        <div><span style="font-size:13px;color: #555;">31 เซียร์ รังสิต</span></div>
+
+        <div><span style="font-size:13px;color: #555;">32 ตลาดมีนบุรี</span></div>
+
+        <div><span style="font-size:13px;color: #555;">33 เซ็นจูรี่ อนุสาวรีย์</span></div>
+
+        <div><span style="font-size:13px;color: #555;">34 เซ็นจูรี่ สุขุมวิท</span></div>
+
+        <div><span style="font-size:13px;color: #555;">35 เซ็นทรัลพลาซา ลาดพร้าว ชั้น G</span></div>
+
+        <div><span style="font-size:13px;color: #555;">36 เซ็นทรัลพลาซา&nbsp; พระราม 3 ชั้น 5</span></div>
+
+        <div><span style="font-size:13px;color: #555;">37 เซ็นทรัลพลาซา&nbsp; พระราม 9 ชั้น B</span></div>
+
+        <div><span style="font-size:13px;color: #555;">38 เทอร์มินอล21 อโศก&nbsp;</span></div>
+
+        <div><span style="font-size:13px;color: #555;">39 เดอะมอลล์ บางกะปิ</span></div>
+        <br>
+        <span style="font-size:13px;color: #555;">Link</span> : <a
+          href="http://www.misterdonut.co.th/promotions.php#myModal81" class="txt-brow"
+          style="text-decoration: none; font-size: 20px;">http://www.misterdonut.co.th/promotions.php#myModal81</a>
+        </p>
+      </div>
+      <div style="position: relative;">
+        <a class="button-close-popup" style="left: 655px;" onclick="outclickmenu_1('main-popup-4', 'bodys')"><img
+            src="/mains/img/x-close.png" alt=""></a>
+      </div>
+
+    </div>
+  </div>
+  <!-- -------------------------------------------------------------- -->
+  </div>
+  <div class="container container1">
+    <div class="row">
+
+      <div class="col-12">
+        <div>
+          <a href="/index.html"><img src="/mains/upload_file/banner/210930130308_Cover_Website.jpg" alt="รูปสีเขียว Slider"></a>
+        </div>
+      </div>
+      <!-- --------------------------------------- -->
+      <div class="row">
+
+        <div class="col-3" style="margin-top: 53px; ">
+          <div class="pro-red">
+            <img src="/mains/img/product-recomment.png" alt="รูปสีแดง">
+          </div>
+        </div>
+        <!-- --------------------------------------- -->
+
+        <div class="col-9" style="margin-top: 120px; ">
+          <div class="row">
+
+            <div class="col" style="position: relative;">
+              <img id="bg-donut" class="tad" src="/mains/img/bg-donut.png">
+              <img class="img-menu" id="donut" onclick="onclickmenu('main-popup', 'bodys')"
+                onmouseover="mouseOver('bg-donut')" onmouseout="mouseOut('bg-donut')" src="/mains/upload_file/menu/menu1.png"
+                alt="menu-donut1" style="position: relative; z-index: 1;">
+              <br>
+              <h4 class="lineh" style="margin-bottom: -15px;">พอน เดอ ริง ไวท์ ช็อกโกแลต</h4>
+              <h4 class="lineh2">Pon de ring White Chocolate</h4>
+            </div>
+
+            <div class="col" style="position: relative;">
+              <img id="bg-donut1" class="tad" src="/mains/img/bg-donut.png">
+              <img class="img-menu" id="donut1" onclick="onclickmenu('main-popup1', 'bodys')"
+                onmouseover="mouseOver('bg-donut1')" onmouseout="mouseOut('bg-donut1')" src="/mains/upload_file/menu/menu2.png"
+                alt="menu-donut2" style="position: relative; z-index: 1;">
+              <br>
+              <h4 class="lineh">ช็อกโกแลต ริง</h4>
+              <span class="lineh2">Chocolate ring</span>
+            </div>
+
+            <div class="col" style="position: relative;">
+              <img id="bg-donut2" class="tad" src="/mains/img/bg-donut.png">
+              <img class="img-menu" id="donut2" onclick="onclickmenu('main-popup2', 'bodys')"
+                onmouseover="mouseOver('bg-donut2')" onmouseout="mouseOut('bg-donut2')" src="/mains/upload_file/menu/menu3.png"
+                alt="menu-donut3" style="position: relative; z-index: 1;">
+              <br>
+              <h4 class="lineh">ฮันนี่ดิป</h4>
+              <span class="lineh2">Honey Dipped</span>
+            </div>
+
+            <div class="col" style="position: relative;">
+              <img id="bg-donut3" class="tad" src="/mains/img/bg-donut.png">
+              <img class="img-menu" id="donut3" onclick="onclickmenu('main-popup3', 'bodys')"
+                onmouseover="mouseOver('bg-donut3')" onmouseout="mouseOut('bg-donut3')" src="/mains/upload_file/menu/menu4.png"
+                alt="menu-donut4" style="position: relative; z-index: 1;">
+              <br>
+              <h4 class="lineh">สตรอเบอร์รี่ ริง</h4>
+              <span class="lineh2">Strawberry ring</span>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------------------------- -->
+      </div>
+      <!-- --------------------------------------- -->
+      <div class="container container1">
+        <div class="center">
+          <h2 class="update">UPDATE <span style="color: #999;">ZONE</span></h2>
+        </div>
+      </div>
+      <!-- --------------------------------------- -->
+
+
+      <div class="col-3 container container1 update-zone" id="update-zone" onmouseover="line_11('linehover')"
+        onmouseout="line_12('linehover')">
+        <!-- <div class=""> -->
+        <div class="hover-img1">
+          <img class="img-circle" onclick="onclickmenu_1('main-popup-1', 'bodys')"
+            src="/mains/upload_file/update_zone/210701121436_KATSUYA_Hoc_Jun21_1040x1040_Line OA.jpeg" style="opacity: 1;">
+        </div>
+
+        <div>
+          <h2 class="font-update">ต้องลอง! TONKATSU Sandwich</h2>
+        </div>
+        <div class="border-bottom border-secondary linehover" id="linehover"></div>
+        <div>
+          <p class="font-update1">TONKATSU Sandwich จาก Katsuya พร้อมเสิร์ฟแล้วที่ Mister Donut</p>
+        </div>
+        <div class="border-bottom"></div>
+
+        <!-- </div> -->
+      </div>
+
+      <div class="col-3 container container1 update-zone" id="update-zone" onmouseover="line_11('linehover1')"
+        onmouseout="line_12('linehover1')">
+        <!-- <div class=""> -->
+        <div class="hover-img1">
+          <img class="img-circle" onclick="onclickmenu_1('main-popup-2', 'bodys')"
+            src="/mains/upload_file/update_zone/210414145104_ผลไม้โซดา-1040-pix.jpg" style="opacity: 1;">
+        </div>
+
+        <div>
+          <h2 class="font-update">Fresh Soda</h2>
+        </div>
+
+        <div class="border-bottom border-secondary linehover" id="linehover1"></div>
+        <div>
+          <p class="font-update1">ซัมเมอร์นี้ ตุนความสดชื่นไว้เลย&nbsp;</p><br>
+        </div>
+        <div class="border-bottom"></div>
+        <!-- </div> -->
+      </div>
+
+      <div class="col-3 container container1 update-zone" id="update-zone" onmouseover="line_11('linehover2')"
+        onmouseout="line_12('linehover2')">
+        <!-- <div class="container update-zone" id="update-zone"> -->
+        <div class="hover-img1">
+          <img class="img-circle" onclick="onclickmenu_1('main-popup-2', 'bodys')"
+            src="/mains/upload_file/update_zone/190425091642_Mister Donut  Croissant  หน้าปก.jpg" style="opacity: 1;">
+        </div>
+
+        <div>
+          <h2 class="font-update">ใหม่! ครัวซองค์ นำเข้าจาก ฝรั่งเศส 100%</h2>
+        </div>
+
+        <div class="border-bottom border-secondary linehover" id="linehover2"></div>
+
+        <div>
+          <p class="font-update1">5 สาขาที่ร่วมรายการ</p>
+        </div>
+        <div class="border-bottom"></div>
+        <!-- </div> -->
+      </div>
+
+      <div class="col-3 container container1 update-zone" id="update-zone" onmouseover="line_11('linehover3')"
+        onmouseout="line_12('linehover3')">
+        <!-- <div class="row">   -->
+        <!-- <div class="container update-zone"> -->
+        <div class="hover-img1">
+          <img class="img-circle" onclick="onclickmenu_1('main-popup-4', 'bodys')"
+            src="/mains/upload_file/update_zone/190709081224_Facebook--1040-x-1040-op3.jpg" style="opacity: 1;">
+        </div>
+
+        <div>
+          <h2 class="font-update">มิสเตอร์ โดนัทตัวอักษร สุขสันต์ (Mister Donut Alphabet)</h2>
+        </div>
+
+        <div class="border-bottom border-secondary linehover" id="linehover3"></div>
+
+        <div>
+          <p><span class="font-update1" style="font-size:13px">มิสเตอร์ โดนัทตัวอักษร สุขสันต์&nbsp; (Mister Donut&nbsp;
+              Alphabet)</span></p>
+        </div>
+        <div class="border-bottom" style="margin-bottom: 120px;"></div>
+
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+
+  <div class="parallax nobottommargin"
+    style="padding-bottom: 80px; background-image: url(&quot;/mains/img/bg-vdo.jpg&quot;); background-position: 50% -4.43438px;"
+    data-stellar-background-ratio="0.3">
+    <div class="container container1 clearfix allvdo">
+      <div class="row">
+
+        <div class="col-6">
+          <div class="fluid-width-video-wrapper" style="padding-top: 0;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_HYfMMxIMwA"
+              title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="vdo-pic">
+            <img src="/mains/img/vdo-pic.png" style="width: 550px;" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- เนิ้อหา ปิด -->
+  <footer>
+    <div class="pt-5 pb-5" id="footer-text-top">
+      <a href="/index.html" class="footer-text" style="text-decoration: none">HOME</a>
+      <a href="/about-us/about_us.html" class="footer-text" style="text-decoration: none">ABOUT US</a>
+      <a href="/mains/menu.html" class="footer-text" style="text-decoration: none">MENU</a>
+      <a href="/promotion/promotion.html" class="footer-text" style="text-decoration: none">PROMOTIONS</a>
+      <a href="/new&activity/index.html" class="footer-text" style="text-decoration: none">NEWS & ACTIVITY</a>
+      <a href="/mains/snack.html" class="footer-text" style="text-decoration: none">SNACK BOX & CATERING</a>
+      <a href="/branch/branch.html" class="footer-text" style="text-decoration: none">BRANCH</a>
+      <a href="/career/career.html" class="footer-text" style="text-decoration: none">CAREERS</a>
+      <a href="/contact-us/contact_us.html" class="footer-text" style="text-decoration: none">CONTACT US</a>
+    </div>
+    <div class="box-icon p-1 pb-0 pt-3">
+      <ul class="icon-move">
+        <a href="https://www.facebook.com/MisterDonutThailand" target="_blank" class="fb" style="text-decoration: none">
+          <img src="/navbar/img/fb.png" alt="facebook" class="icon-bottom" />
+        </a>
+        <a href="https://www.instagram.com/misterdonut_thailand/" target="_blank" class="ig"
+          style="text-decoration: none">
+          <img src="/navbar/img/ig.png" alt="instagram" class="icon-bottom" />
+        </a>
+        <a href="https://twitter.com/MisterdonutThai" target="_blank" class="tw" style="text-decoration: none">
+          <img src="/navbar/img/tw.png" alt="twitter" class="icon-bottom" />
+        </a>
+        <a href="https://www.youtube.com/channel/UCJ9RxPxMsQabgddxUKBHakg" target="_blank" class="yt"
+          style="text-decoration: none">
+          <img src="/navbar/img/yt.png" alt="youtube" class="icon-bottom" />
+        </a>
+        <a href="http://line.me/ti/p/%40mister.donut" target="_blank" class="line" style="text-decoration: none">
+          <img src="/navbar/img/line.png" alt="line" class="icon-bottom" />
+        </a>
+      </ul>
+    </div>
+    <div>
+      <p class="copyright">
+        Copyright@2017 by Central Restaurants Group Co.,Ltd. All right
+        reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- <script src="js/home.js" ></script> -->
+  <script src="/mains/js/home.js"></script>
+  <script src="/mains/js/script.js"></script>
+</body>
+
+</html>

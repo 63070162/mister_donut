@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="http://www.misterdonut.co.th/img/favicon.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="/navbar/script.js"></script>
+  <script src="/branch/branch.js"></script>
+  <link rel="stylesheet" href="/navbar/nav-bar.css">
+  <link rel="stylesheet" href="/branch/branch.css">
+  <title>Branch</title>
+</head>
+
+<body>
+  <div class="nav">
+    <div class="container nav-top pb-0">
+      <p id="hello" class="pt-2">HELLO...</p>
+      <ul class="pt-2 main-contact pb-0">
+        <a href="https://www.facebook.com/MisterDonutThailand" target="_blank" class="text-icon fb"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/20/20837.png" alt="facebook" class="icon-top" />
+          <span>Facebook</span>
+        </a>
+        <a href="https://www.instagram.com/misterdonut_thailand/" target="_blank" class="text-icon ig"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384089.png" alt="instagram" class="icon-top" />
+          <span>Instagram</span>
+        </a>
+        <a href="https://twitter.com/MisterdonutThai" target="_blank" class="text-icon tw"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111819.png" alt="twitter" class="icon-top" />
+          <span>Twitter</span>
+        </a>
+        <a href="https://www.youtube.com/channel/UCJ9RxPxMsQabgddxUKBHakg" target="_blank" class="text-icon yt"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/37/37922.png" alt="youtube" class="icon-top" />
+          <span>Youtube</span>
+        </a>
+        <a href="http://line.me/ti/p/%40mister.donut" target="_blank" class="text-icon line"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111527.png" alt="line" class="icon-top" />
+          <span>Line</span>
+        </a>
+      </ul>
+    </div>
+    <div class="nav-bottom row pt-0" id="nav-bottom">
+      <div class="container">
+        <div class="col-4">
+          <a href="/index.html" style="text-decoration: none">
+            <img src="/navbar/img/logo.png" alt="logo" class="logo" id="logo" />
+          </a>
+        </div>
+        <div class="small row col-4" id="small">
+          <a href="/career/career.html" class="nav-text-top" style="text-decoration: none">CAREERS</a>
+          <p>|</p>
+          <a href="/contact-us/contact_us.html" class="nav-text-top" style="text-decoration: none">CONTACT US</a>
+        </div>
+        <div class="nav-text-bottom" id="nav-text-bottom">
+          <a href="/index.html" class="nav-text" style="text-decoration: none">HOME</a>
+          <a href="/about-us/about_us.html" class="nav-text" style="text-decoration: none">ABOUT US</a>
+          <a href="/mains/menu.html" class="nav-text" style="text-decoration: none">MENU</a>
+          <a href="/promotion/promotion.html" class="nav-text" style="text-decoration: none">PROMOTIONS</a>
+          <a href="/new&activity/index.html" class="nav-text" style="text-decoration: none">NEWS & ACTIVITY</a>
+          <a href="/mains/snack.html" class="nav-text" style="text-decoration: none">SNACK BOX & CATERING</a>
+          <a href="/branch/branch.html" class="nav-text" style="text-decoration: none">BRANCH</a>
+        </div>
+        <div>
+          <img src="/navbar/img/56763.png" alt="" class="menu" id="menu" onclick="menu()" />
+        </div>
+      </div>
+      <div class="hide" id="hide">
+        <img src="/navbar/img/1828747.png" alt="close" id="close" onclick="closed()" />
+        <div class="hide-text-top p-4">
+          <a href="/index.html" class="hide-text" style="text-decoration: none">HOME</a><br />
+          <a href="/about-us/about_us.html" class="hide-text" style="text-decoration: none">ABOUT US</a><br />
+          <a href="/mains/menu.html" class="hide-text" style="text-decoration: none">MENU</a><br />
+          <a href="/promotion/promotion.html" class="hide-text" style="text-decoration: none">PROMOTIONS</a><br />
+          <a href="/new&activity/index.html" class="hide-text" style="text-decoration: none">NEWS & ACTIVITY</a><br />
+          <a href="/mains/snack.html" class="hide-text" style="text-decoration: none">SNACK BOX & CATERING</a><br />
+          <a href="/branch/branch.html" class="hide-text" style="text-decoration: none">BRANCH</a><br />
+          <a href="/career/career.html" class="hide-text" style="text-decoration: none">CAREERS </a><br />
+          <a href="/contact-us/contact_us.html" class="hide-text" style="text-decoration: none">CONTACT US</a><br />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="height: 100px;"></div>
+  <!-- เนื้อหา เปิด-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 pt-4 pb-4">
+        <p class="top">BRANCH</p>
+      </div>
+      <div class="col-md-12">
+        <p class="head">ค้นหาสาขาของ มิสเตอร์ โดนัท ได้ง่ายๆ</p>
+      </div>
+      <div class="col-md-4">
+        <h1>ขั้นตอนที่ 1
+          <span>เลือกที่ตั้ง</span><br>
+          <select name="add1" id="add1" class="mt-3">
+            <option value="1st">--เลือกจังหวัด--</option>
+          </select>
+          <br>
+          <select name="add2" id="add2">
+            <option value="1st">--เลือกเขตอำเภอ--</option>
+          </select>
+        </h1>
+      </div>
+      <div class="col-md-4 pb-5">
+        <h1>ขั้นตอนที่ 2
+          <span>เลือกสาขาที่ต้องการ</span><br>
+          <select name="add3" id="add3" class="mt-3">
+            <option value="1st">--เลือกสาขา--</option>
+          </select>
+        </h1>
+      </div>
+      <div class="col-12 pt-5">
+        <p class="head pt-5">ข้อมูลสาขา</p>
+      </div>
+      <div class="col-lg-12" id="name">
+        <p>เซ็นทรัล สีลม</p>
+      </div>
+      <div class="col-md-4">
+        <div>
+          <img src="/branch/img/684809.png" alt="point" class="icon-low" style="float: left;">
+          <p class="pl-4 text-top">ที่อยู่</p>
+        </div>
+        <div id="add-text" class="pl-4">
+          <p>306 อาคารเซ็นทรัลสีลม ห้องเลขที่ 108 ชั้นที่ 1 ถ.สีลม แขวงสุริยวงศ์ เขตบางรัก กทม.10500</p>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div>
+          <img src="/branch/img/977411.png" alt="point" class="icon-low" style="float: left;">
+          <p class="pl-4 text-top">เบอร์โทรศัพท์</p>
+        </div>
+        <div id="tel-text" class="pl-4">
+          <p>02-635-7927</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div>
+          <img src="/branch/img/223404.png" alt="point" class="icon-low" style="float: left;">
+          <p class="pl-4 text-top">วันและเวลาทำการ</p>
+        </div>
+        <div id="time-text" class="pl-4">
+          <p>จันทร์-ศุกร์ 10.00 - 21.30 น.</p>
+        </div>
+      </div>
+      <div class="col-md-3" style="text-align: center;">
+        <div>
+          <img src="/branch/img/road-map.png" alt="point" class="icon-loc" style="float: left;">
+          <p class="pl-4 text-top">ขอเส้นทางการเดินทาง ไปยังสาขานี้</p>
+        </div>
+        <div id="loc-text" class="pl-4">
+          <a style="text-decoration: none;"
+            href="https://www.google.com/maps/dir/Pattarin+2,+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87+%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B8%99+%E0%B9%80%E0%B8%82%E0%B8%95+%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%A7%E0%B8%B2+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10510+%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2/13.723768,100.520449/@13.7922726,100.483386,11z/data=!3m1!4b1!4m8!4m7!1m5!1m1!1s0x311d64990204930b:0x170e0ac7833349fc!2m2!1d100.7183486!2d13.837687!1m0"
+            target="_blank" id="click">คลิก!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- เนิ้อหา ปิด -->
+  <footer>
+    <div class="pt-5 pb-5" id="footer-text-top">
+      <a href="/index.html" class="footer-text" style="text-decoration: none">HOME</a>
+      <a href="/about-us/about_us.html" class="footer-text" style="text-decoration: none">ABOUT US</a>
+      <a href="/mains/menu.html" class="footer-text" style="text-decoration: none">MENU</a>
+      <a href="/promotion/promotion.html" class="footer-text" style="text-decoration: none">PROMOTIONS</a>
+      <a href="/new&activity/index.html" class="footer-text" style="text-decoration: none">NEWS & ACTIVITY</a>
+      <a href="/mains/snack.html" class="footer-text" style="text-decoration: none">SNACK BOX & CATERING</a>
+      <a href="/branch/branch.html" class="footer-text" style="text-decoration: none">BRANCH</a>
+      <a href="/career/career.html" class="footer-text" style="text-decoration: none">CAREERS</a>
+      <a href="/contact-us/contact_us.html" class="footer-text" style="text-decoration: none">CONTACT US</a>
+    </div>
+    <div class="box-icon p-1 pb-0 pt-3">
+      <ul class="icon-move">
+        <a href="https://www.facebook.com/MisterDonutThailand" target="_blank" class="fb" style="text-decoration: none">
+          <img src="/navbar/img/fb.png" alt="facebook" class="icon-bottom" />
+        </a>
+        <a href="https://www.instagram.com/misterdonut_thailand/" target="_blank" class="ig"
+          style="text-decoration: none">
+          <img src="/navbar/img/ig.png" alt="instagram" class="icon-bottom" />
+        </a>
+        <a href="https://twitter.com/MisterdonutThai" target="_blank" class="tw" style="text-decoration: none">
+          <img src="/navbar/img/tw.png" alt="twitter" class="icon-bottom" />
+        </a>
+        <a href="https://www.youtube.com/channel/UCJ9RxPxMsQabgddxUKBHakg" target="_blank" class="yt"
+          style="text-decoration: none">
+          <img src="/navbar/img/yt.png" alt="youtube" class="icon-bottom" />
+        </a>
+        <a href="http://line.me/ti/p/%40mister.donut" target="_blank" class="line" style="text-decoration: none">
+          <img src="/navbar/img/line.png" alt="line" class="icon-bottom" />
+        </a>
+      </ul>
+    </div>
+    <div>
+      <p class="copyright">
+        Copyright@2017 by Central Restaurants Group Co.,Ltd. All right
+        reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/nav-bar.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+
+    <link rel="icon" href="http://www.misterdonut.co.th/img/favicon.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <title>Menu2</title>
+
+</head>
+
+
+<body id="bodys">
+    <div class="nav">
+      <div class="container nav-top pb-0">
+        <p id="hello" class="pt-2">HELLO...</p>
+        <ul class="pt-2 main-contact pb-0">
+          <a href="https://www.facebook.com/MisterDonutThailand" target="_blank" class="text-icon fb"
+            style="text-decoration: none">
+            <img src="/navbar/img/fb.png" alt="facebook" class="icon-top" />
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/misterdonut_thailand/" target="_blank" class="text-icon ig"
+            style="text-decoration: none">
+            <img src="/navbar/img/ig.png" alt="instagram" class="icon-top" />
+            <span>Instagram</span>
+          </a>
+          <a href="https://twitter.com/MisterdonutThai" target="_blank" class="text-icon tw"
+            style="text-decoration: none">
+            <img src="/navbar/img/tw.png" alt="twitter" class="icon-top" />
+            <span>Twitter</span>
+          </a>
+          <a href="https://www.youtube.com/channel/UCJ9RxPxMsQabgddxUKBHakg" target="_blank" class="text-icon yt"
+            style="text-decoration: none">
+            <img src="/navbar/img/yt.png" alt="youtube" class="icon-top" />
+            <span>Youtube</span>
+          </a>
+          <a href="http://line.me/ti/p/%40mister.donut" target="_blank" class="text-icon line"
+            style="text-decoration: none">
+            <img src="/navbar/img/line.png" alt="line" class="icon-top" />
+            <span>Line</span>
+          </a>
+        </ul>
+      </div>
+  
+  
+      <div class="nav-bottom row pt-0" id="nav-bottom">
+        <div class="container">
+          <div class="container">
+            <div class="col-4">
+              <a href="#" style="text-decoration: none">
+                <img src="/navbar/img/logo.png" alt="logo" class="logo" id="logo" />
+              </a>
+            </div>
+            <div class="small" id="small">
+              <a href="/career/career.html" class="nav-text-top" style="text-decoration: none">CAREERS</a>
+              <p>|</p>
+              <a href="/contact-us/contact_us.html" class="nav-text-top" style="text-decoration: none">CONTACT US</a>
+            </div>
+            <div class="nav-text-bottom" id="nav-text-bottom">
+                <a href="/index.html" class="nav-text" style="text-decoration: none">HOME</a>
+                <a href="/about-us/about_us.html" class="nav-text" style="text-decoration: none">ABOUT US</a>
+                <a href="/mains/menu.html" class="nav-text" style="text-decoration: none">MENU</a>
+                <a href="/promotion/promotion.html" class="nav-text" style="text-decoration: none">PROMOTIONS</a>
+                <a href="/new&activity/index.html" class="nav-text" style="text-decoration: none">NEWS & ACTIVITY</a>
+                <a href="/mains/snack.html" class="nav-text" style="text-decoration: none">SNACK BOX & CATERING</a>
+                <a href="/branch/branch.html" class="nav-text" style="text-decoration: none">BRANCH</a>
+              </div>
+            <div>
+              <img src="/navbar/img/56763.png" alt="" class="menu" id="menu" onclick="menu()" />
+            </div>
+          </div>
+        </div>
+  
+        <div class="hide" id="hide">
+          <img src="/navbar/img/1828747.png" alt="close" id="close" onclick="closed()" />
+          <div class="hide-text-top p-4">
+            <a href="/index.html" class="hide-text" style="text-decoration: none">HOME</a><br />
+            <a href="/about-us/about_us.html" class="hide-text" style="text-decoration: none">ABOUT US</a><br />
+            <a href="/mains/menu.html" class="hide-text" style="text-decoration: none">MENU</a><br />
+            <a href="/promotion/promotion.html" class="hide-text" style="text-decoration: none">PROMOTIONS</a><br />
+            <a href="/new&activity/index.html" class="hide-text" style="text-decoration: none">NEWS & ACTIVITY</a><br />
+            <a href="/mains/snack.html" class="hide-text" style="text-decoration: none">SNACK BOX & CATERING</a><br />
+            <a href="/branch/branch.html" class="hide-text" style="text-decoration: none">BRANCH</a><br />
+            <a href="/career/career.html" class="hide-text" style="text-decoration: none">CAREERS </a><br />
+            <a href="/contact-us/contact_us.html" class="hide-text" style="text-decoration: none">CONTACT US</a><br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="height:130px;"></div>
+    <!-- เนื้อหา เปิด-->
+    <!-- ----------------------------mo1---------------------------------- -->
+    <div class="main-popup d-flex justify-content-center" id="menu2-popup1">
+        <div class="popup1-1 ">
+
+            <div class="popup1-2">
+                <img class="img-popup" src="upload_file/menu/180330070154_02-Hot-Espresso-2018.png" alt="">
+                <h2 class="txt-red">เอสเพรสโซ่ ร้อน</h2>
+                <h3 class="txt-brow">Hot Espresso</h3>
+                <div class="border-bottom border-secondary hightline3"></div>
+                <p class="txt-small">...</p>
+
+            </div>
+            <div style="position: relative;">
+                <a class="button-close-popup" onclick="outclickmenu('menu2-popup1', 'bodys')"><img src="img/x-close.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------mo2---------------------------------- -->
+    <div class="main-popup d-flex justify-content-center" id="menu2-popup2">
+        <div class="popup1-1 ">
+
+            <div class="popup1-2">
+                <img class="img-popup" src="upload_file/menu/180330070104_01-Hot-Americano-2018.png" alt="">
+                <h2 class="txt-red">อเมริกาโน่ ร้อน</h2>
+                <h3 class="txt-brow">Hot Americano</h3>
+                <div class="border-bottom border-secondary hightline3"></div>
+                <p class="txt-small">...</p>
+
+            </div>
+            <div style="position: relative;">
+                <a class="button-close-popup" onclick="outclickmenu('menu2-popup2', 'bodys')"><img src="img/x-close.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------mo3---------------------------------- -->
+    <div class="main-popup d-flex justify-content-center" id="menu2-popup3">
+        <div class="popup1-1 ">
+
+            <div class="popup1-2">
+                <img class="img-popup" src="upload_file/menu/180330070334_03-Hot-Cappu-2018.png" alt="">
+                <h2 class="txt-red">คาปูชิโน่ ร้อน</h2>
+                <h3 class="txt-brow">Hot Cappuccino</h3>
+                 <div class="border-bottom border-secondary hightline3"></div>
+                <p class="txt-small">...</p>
+              
+            </div>
+            <div style="position: relative;">
+                <a class="button-close-popup" onclick="outclickmenu('menu2-popup3', 'bodys')"><img src="img/x-close.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------mo4---------------------------------- -->
+    <div class="main-popup d-flex justify-content-center" id="menu2-popup4">
+        <div class="popup1-1 ">
+
+            <div class="popup1-2">
+                <img class="img-popup" src="upload_file/menu/180330070708_04-Hot-Latte-2018.png" alt="">
+                <h2 class="txt-red">ลาเต้ ร้อน</h2>
+                <h3 class="txt-brow">Hot Latte</h3>
+                 <div class="border-bottom border-secondary hightline3"></div>
+                <p class="txt-small">...</p>
+              
+            </div>
+            <div style="position: relative;">
+                <a class="button-close-popup" onclick="outclickmenu('menu2-popup4', 'bodys')"><img src="img/x-close.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------mo5---------------------------------- -->
+    <div class="main-popup d-flex justify-content-center" id="menu2-popup5">
+        <div class="popup1-1 ">
+
+            <div class="popup1-2">
+                <img class="img-popup" src="upload_file/menu/180330070723_05-Hot-Mocca-2018.png" alt="">
+                <h2 class="txt-red">มอคค่า ร้อน</h2>
+                <h3 class="txt-brow">Hot Mocha</h3>
+                 <div class="border-bottom border-secondary hightline3"></div>
+                <p class="txt-small">...</p>
+              
+            </div>
+            <div style="position: relative;">
+                <a class="button-close-popup" onclick="outclickmenu('menu2-popup5', 'bodys')"><img src="img/x-close.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------mo6---------------------------------- -->
+    <div class="main-popup d-flex justify-content-center" id="menu2-popup6">
+        <div class="popup1-1 ">
+
+            <div class="popup1-2">
+                <img class="img-popup" src="upload_file/menu/180330070737_06-Hot-Caramel-2018.png" alt="">
+                <h2 class="txt-red">คาราเมล มัคคิอาโต้ ร้อน</h2>
+                <h3 class="txt-brow">Hot Caramel Macchiato</h3>
+                 <div class="border-bottom border-secondary hightline3"></div>
+                <p class="txt-small">...</p>
+              
+            </div>
+            <div style="position: relative;">
+                <a class="button-close-popup" onclick="outclickmenu('menu2-popup6', 'bodys')"><img src="img/x-close.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------mo7---------------------------------- -->
+    <div class="main-popup d-flex justify-content-center" id="menu2-popup7">
+        <div class="popup1-1 ">
+
+            <div class="popup1-2">
+                <img class="img-popup" src="upload_file/menu/180330070755_07-Hot-tea-Dilmah-2018.png" alt="">
+                <h2 class="txt-red">ชาดิลมา</h2>
+                <h3 class="txt-brow">Dilmah Tea</h3>
+                 <div class="border-bottom border-secondary hightline3"></div>
+                <p class="txt-small">...</p>
+              
+            </div>
+            <div style="position: relative;">
+                <a class="button-close-popup" onclick="outclickmenu('menu2-popup7', 'bodys')"><img src="img/x-close.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------mo8---------------------------------- -->
+    <div class="main-popup d-flex justify-content-center" id="menu2-popup8">
+        <div class="popup1-1 ">
+
+            <div class="popup1-2">
+                <img class="img-popup" src="upload_file/menu/180330070823_09-Hot-Green-Tea-2018.png" alt="">
+                <h2 class="txt-red">ชาเขียวนมสด ร้อน</h2>
+                <h3 class="txt-brow">Green Tea with Milk</h3>
+                 <div class="border-bottom border-secondary hightline3"></div>
+                <p class="txt-small">...</p>
+              
+            </div>
+            <div style="position: relative;">
+                <a class="button-close-popup" onclick="outclickmenu('menu2-popup8', 'bodys')"><img src="img/x-close.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------mo9---------------------------------- -->
+    <div class="main-popup d-flex justify-content-center" id="menu2-popup9">
+        <div class="popup1-1 ">
+
+            <div class="popup1-2">
+                <img class="img-popup" src="upload_file/menu/180330070811_08-Hot-Thai-Tea-2018.png" alt="">
+                <h2 class="txt-red">ชาไทยนมสด ร้อน</h2>
+                <h3 class="txt-brow">Thai Tea with Milk</h3>
+                 <div class="border-bottom border-secondary hightline3"></div>
+                <p class="txt-small">...</p>
+              
+            </div>
+            <div style="position: relative;">
+                <a class="button-close-popup" onclick="outclickmenu('menu2-popup9', 'bodys')"><img src="img/x-close.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------mo10---------------------------------- -->
+    <div class="main-popup d-flex justify-content-center" id="menu2-popup10">
+        <div class="popup1-1 ">
+
+            <div class="popup1-2">
+                <img class="img-popup" src="upload_file/menu/180330070833_10-Hot-Milk-2018.png" alt="">
+                <h2 class="txt-red">นมสด ร้อน</h2>
+                <h3 class="txt-brow">Hot Fresh Milk</h3>
+                 <div class="border-bottom border-secondary hightline3"></div>
+                <p class="txt-small">...</p>
+              
+            </div>
+            <div style="position: relative;">
+                <a class="button-close-popup" onclick="outclickmenu('menu2-popup10', 'bodys')"><img src="img/x-close.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------mo11---------------------------------- -->
+    <div class="main-popup d-flex justify-content-center" id="menu2-popup11">
+        <div class="popup1-1 ">
+
+            <div class="popup1-2">
+                <img class="img-popup" src="upload_file/menu/180330070852_11-Hot-Choc-2018.png" alt="">
+                <h2 class="txt-red">ช็อกโกแลต ร้อน</h2>
+                <h3 class="txt-brow">Hot Chocolate</h3>
+                 <div class="border-bottom border-secondary hightline3"></div>
+                <p class="txt-small">...</p>
+              
+            </div>
+            <div style="position: relative;">
+                <a class="button-close-popup" onclick="outclickmenu('menu2-popup11', 'bodys')"><img src="img/x-close.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+     <!-- ----------------------------mo12---------------------------------- -->
+     <div class="main-popup d-flex justify-content-center" id="menu2-popup12">
+        <div class="popup1-1 ">
+
+            <div class="popup1-2">
+                <img class="img-popup" src="upload_file/menu/180330073408_24-Ice-Signature.png" alt="">
+                <h2 class="txt-red">ICED SIGNATUR</h2>
+                <h3 class="txt-brow">ICED SIGNATURE ( White Chocolate MOCHA)</h3>
+                 <div class="border-bottom border-secondary hightline3"></div>
+                <p class="txt-small">...</p>
+              
+            </div>
+            <div style="position: relative;">
+                <a class="button-close-popup" onclick="outclickmenu('menu2-popup12', 'bodys')"><img src="img/x-close.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------ -->
+
+    <div class="container clearfix">
+        <h1 class="head-menu">MENU</h1>
+    </div>
+
+    <div class="container menu-banner pl-2">
+            <img class="desktop1" src="img/menu-banner.jpg" alt="">
+    </div>
+
+    <div class="container clearfix bar-menu">
+        <div class="col-6 pl-0">
+            <div class="tab-desktop">
+                <a href="menu.html"><img src="img/menu-beverage-tab-1.jpg" alt="เครื่องดื่ม"></a>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="tab-desktop">
+                <img src="img/menu-beverage-tab-2.jpg" alt="โดนัท">
+            </div>
+        </div>
+    </div>
+
+    <div class="container clearfix menu1-1">
+        <!-- 1---------------------------------------------------------------------------- -->
+        <div class="col-3 update-zone">
+            <div class="menu-box"><img id="imgmenu1" onclick="onclickmenu_1('menu2-popup1', 'bodys')"
+                    src="upload_file/menu/180330070306_02-Hot-Espresso-2018.png"></div>
+            <div>
+                <h2 class="text-red">เอสเพรสโซ่ ร้อน</h2>
+            </div>
+            <div class="lineh2"><span class="text-two">Hot Espresso</span></div>
+            <div class="border-bottom border-secondary linehover"></div>
+            <div>
+                <p class="font-update1">...</p>
+            </div>
+            <div class="border-bottom border-secondary hightline2 "></div>
+        </div>
+
+        <!-- 2---------------------------------------------------------------------------- -->
+
+        <div class="col-3 update-zone">
+            <div class="menu-box"><img id="imgmenu2" onclick="onclickmenu_1('menu2-popup2', 'bodys')"
+                    src="upload_file/menu/180330070104_01-Hot-Americano-2018.png"></div>
+            <div>
+                <h2 class="text-red">อเมริกาโน่ ร้อน</h2>
+            </div>
+            <div class="lineh2"><span class="text-two">Hot Americano</span></div>
+            <div class="border-bottom border-secondary linehover"></div>
+            <div>
+                <p class="font-update1">...</p>
+            </div>
+            <div class="border-bottom border-secondary hightline2 "></div>
+        </div>
+
+        <!-- 3---------------------------------------------------------------------------- -->
+        <div class="col-3 update-zone">
+            <div class="menu-box"><img id="imgmenu3" onclick="onclickmenu_1('menu2-popup3', 'bodys')"
+                    src="upload_file/menu/180330070359_03-Hot-Cappu-2018.png"></div>
+            <div>
+                <h2 class="text-red">คาปูชิโน่ ร้อน</h2>
+            </div>
+            <div class="lineh2"><span class="text-two">Hot Cappuccino</span></div>
+            <div class="border-bottom border-secondary linehover"></div>
+            <div>
+                <p class="font-update1">...</p>
+            </div>
+            <div class="border-bottom border-secondary hightline2 "></div>
+        </div>
+
+        <!-- 4---------------------------------------------------------------------------- -->
+        <div class="col-3 update-zone">
+            <div class="menu-box"><img id="imgmenu4" onclick="onclickmenu_1('menu2-popup4', 'bodys')"
+                    src="upload_file/menu/180330070417_04-Hot-Latte-2018.png"></div>
+            <div>
+                <h2 class="text-red">ลาเต้ ร้อน</h2>
+            </div>
+            <div class="lineh2"><span class="text-two">Hot Latte</span></div>
+            <div class="border-bottom border-secondary linehover"></div>
+            <div>
+                <p class="font-update1">...</p>
+            </div>
+            <div class="border-bottom border-secondary hightline2 "></div>
+        </div>
+
+        <!-- 5---------------------------------------------------------------------------- 5-->
+
+        <div class="col-3 update-zone">
+            <div class="menu-box"><img id="imgmenu5" onclick="onclickmenu_1('menu2-popup5', 'bodys')"
+                    src="upload_file/menu/180330070440_05-Hot-Mocca-2018.png"></div>
+            <div>
+                <h2 class="text-red">มอคค่า ร้อน</h2>
+            </div>
+            <div class="lineh2"><span class="text-two">Hot Mocha</span></div>
+            <div class="border-bottom border-secondary linehover"></div>
+            <div>
+                <p class="font-update1">...</p>
+            </div>
+            <div class="border-bottom border-secondary hightline2 "></div>
+        </div>
+
+        <!-- 6----------------------------------------------------------------------------6-->
+
+        <div class="col-3 update-zone">
+            <div class="menu-box"><img id="imgmenu6" onclick="onclickmenu_1('menu2-popup6', 'bodys')"
+                    src="upload_file/menu/180330070456_06-Hot-Caramel-2018.png"></div>
+            <div>
+                <h2 class="text-red">คาราเมล มัคคิอาโต้ ร้อน</h2>
+            </div>
+            <div class="lineh2"><span class="text-two">Hot Caramel Macchiato</span></div>
+            <div class="border-bottom border-secondary linehover"></div>
+            <div>
+                <p class="font-update1">...</p>
+            </div>
+            <div class="border-bottom border-secondary hightline2 "></div>
+        </div>
+
+        <!-- 7---------------------------------------------------------------------------- -->
+
+
+        <div class="col-3 update-zone">
+            <div class="menu-box"><img id="imgmenu7" onclick="onclickmenu_1('menu2-popup7', 'bodys')"
+                    src="upload_file/menu/180330070523_07-Hot-tea-Dilmah-2018.png"></div>
+            <div>
+                <h2 class="text-red">ชาดิลมา</h2>
+            </div>
+            <div class="lineh2"><span class="text-two">Dilmah Tea</span></div>
+            <div class="border-bottom border-secondary linehover"></div>
+            <div>
+                <p class="font-update1">...</p>
+            </div>
+            <div class="border-bottom border-secondary hightline2 "></div>
+        </div>
+
+        <!-- 8---------------------------------------------------------------------------- -->
+
+        <div class="col-3 update-zone">
+            <div class="menu-box"><img id="imgmenu8" onclick="onclickmenu_1('menu2-popup8', 'bodys')"
+                    src="upload_file/menu/180330070600_09-Hot-Green-Tea-2018.png"></div>
+            <div>
+                <h2 class="text-red">ชาเขียวนมสด ร้อน</h2>
+            </div>
+            <div class="lineh2"><span class="text-two">Green Tea with Milk</span></div>
+            <div class="border-bottom border-secondary linehover"></div>
+            <div>
+                <p class="font-update1">...</p>
+            </div>
+            <div class="border-bottom border-secondary hightline2 "></div>
+        </div>
+
+        <!-- 9---------------------------------------------------------------------------- -->
+
+        <div class="col-3 update-zone">
+            <div class="menu-box"><img id="imgmenu9" onclick="onclickmenu_1('menu2-popup9', 'bodys')"
+                    src="upload_file/menu/180330070545_08-Hot-Thai-Tea-2018.png"></div>
+            <div>
+                <h2 class="text-red">ชาเขียวนมสด ร้อน</h2>
+            </div>
+            <div class="lineh2"><span class="text-two">Green Tea with Milk</span></div>
+            <div class="border-bottom border-secondary linehover"></div>
+            <div>
+                <p class="font-update1">...</p>
+            </div>
+            <div class="border-bottom border-secondary hightline2 "></div>
+        </div>
+
+        <!-- 10---------------------------------------------------------------------------- -->
+
+        <div class="col-3 update-zone">
+            <div class="menu-box"><img id="imgmenu11" onclick="onclickmenu_1('menu2-popup10', 'bodys')"
+                    src="upload_file/menu/180330070623_10-Hot-Milk-2018.png"></div>
+            <div>
+                <h2 class="text-red">นมสด ร้อน</h2>
+            </div>
+            <div class="lineh2"><span class="text-two">Hot Fresh Milk</span></div>
+            <div class="border-bottom border-secondary linehover"></div>
+            <div>
+                <p class="font-update1">...</p>
+            </div>
+            <div class="border-bottom border-secondary hightline2 "></div>
+        </div>
+
+        <!-- 11---------------------------------------------------------------------------- -->
+
+        <div class="col-3 update-zone">
+            <div class="menu-box"><img id="imgmenu12-12" onclick="onclickmenu_1('menu2-popup11', 'bodys')"
+                    src="upload_file/menu/180330070641_11-Hot-Choc-2018.png"></div>
+            <div>
+                <h2 class="text-red">ช็อกโกแลต ร้อน</h2>
+            </div>
+            <div class="lineh2"><span class="text-two">Hot Chocolate</span></div>
+            <div class="border-bottom border-secondary linehover"></div>
+            <div>
+                <p class="font-update1">...</p>
+            </div>
+            <div class="border-bottom border-secondary hightline2 "></div>
+        </div>
+        <!-- 12---------------------------------------------------------------------------- -->
+
+
+        <div class="col-3 update-zone">
+            <div class="menu-box"><img id="imgmenu10" onclick="onclickmenu_1('menu2-popup12', 'bodys')"
+                    src="upload_file/menu/180330073421_24-Ice-Signature.png"></div>
+            <div>
+                <h2 class="text-red">ICED SIGNATURE</h2>
+            </div>
+            <div class="lineh2"><span class="text-two">ICED SIGNATURE ( White Chocolate MOCHA)</span></div>
+            <div class="border-bottom border-secondary linehover"></div>
+            <div>
+                <p class="font-update1">...</p>
+            </div>
+            <div class="border-bottom border-secondary hightline2 "></div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- เนิ้อหา ปิด -->
+    <footer>
+        <div class="pt-5 pb-5" id="footer-text-top">
+          <a href="/index.html" class="footer-text" style="text-decoration: none">HOME</a>
+          <a href="/about-us/about_us.html" class="footer-text" style="text-decoration: none">ABOUT US</a>
+          <a href="/mains/menu.html" class="footer-text" style="text-decoration: none">MENU</a>
+          <a href="/promotion/promotion.html" class="footer-text" style="text-decoration: none">PROMOTIONS</a>
+          <a href="/new&activity/index.html" class="footer-text" style="text-decoration: none">NEWS & ACTIVITY</a>
+          <a href="/mains/snack.html" class="footer-text" style="text-decoration: none">SNACK BOX & CATERING</a>
+          <a href="/branch/branch.html" class="footer-text" style="text-decoration: none">BRANCH</a>
+          <a href="/career/career.html" class="footer-text" style="text-decoration: none">CAREERS</a>
+          <a href="/contact-us/contact_us.html" class="footer-text" style="text-decoration: none">CONTACT US</a>
+        </div>
+        <div class="box-icon p-1 pb-0 pt-3">
+          <ul class="icon-move">
+            <a href="https://www.facebook.com/MisterDonutThailand" target="_blank" class="fb" style="text-decoration: none">
+              <img src="/navbar/img/fb.png" alt="facebook" class="icon-bottom" />
+            </a>
+            <a href="https://www.instagram.com/misterdonut_thailand/" target="_blank" class="ig"
+              style="text-decoration: none">
+              <img src="/navbar/img/ig.png" alt="instagram" class="icon-bottom" />
+            </a>
+            <a href="https://twitter.com/MisterdonutThai" target="_blank" class="tw" style="text-decoration: none">
+              <img src="/navbar/img/tw.png" alt="twitter" class="icon-bottom" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCJ9RxPxMsQabgddxUKBHakg" target="_blank" class="yt"
+              style="text-decoration: none">
+              <img src="/navbar/img/yt.png" alt="youtube" class="icon-bottom" />
+            </a>
+            <a href="http://line.me/ti/p/%40mister.donut" target="_blank" class="line" style="text-decoration: none">
+              <img src="/navbar/img/line.png" alt="line" class="icon-bottom" />
+            </a>
+          </ul>
+        </div>
+        <div>
+          <p class="copyright">
+            Copyright@2017 by Central Restaurants Group Co.,Ltd. All right
+            reserved.
+          </p>
+        </div>
+      </footer>
+            <script src="js/script.js"></script>
+            <script src="js/home.js"></script>
+</body>
+
+</html>

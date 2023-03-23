@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+Thai:wght@900&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@900&family=Varela+Round&display=swap%27');
+#hello {
+  float: left;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Kanit', sans-serif;
+  color: #e10f21;
+  font-weight: 700;
+}
+.nav-top ul {
+  position: relative;
+  float: right;
+}
+body {
+  overflow-x: hidden;
+}
+ul a {
+  padding: 10px;
+  font-family: "Varela Round", sans-serif;
+  font-family: "Kanit", sans-serif;
+}
+footer {
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  font-family: "Kanit", sans-serif;
+}
+footer a {
+  padding: 5px;
+  color: #8d8881;
+}
+.icon-top {
+  width: 15px;
+}
+.main-contact span {
+  display: none;
+  opacity: 0;
+}
+.text-icon {
+  transition: 0.5s;
+}
+.text-icon:hover img {
+  filter: invert(100%);
+}
+.text-icon:hover span {
+  color: white;
+  display: inline;
+  padding-left: 17px;
+  opacity: 1;
+}
+.nav-bottom {
+  height: 100px;
+  width: 105%;
+  background-image: url(img/nav-bar/nav-pattern.jpg);
+}
+#nav-bottom {
+  position: fixed;
+  top: 43px;
+  transition: 0.2s;
+}
+.fb:hover {
+  background-color: rgb(44, 111, 255);
+}
+.ig:hover {
+  background-color: rgb(63, 100, 179);
+}
+.tw:hover {
+  background-color: rgb(44, 171, 255);
+}
+.yt:hover {
+  background-color: rgb(255, 0, 0);
+}
+.line:hover {
+  background-color: rgb(18, 218, 0);
+}
+.logo {
+  width: 115px;
+  display: block;
+  position: relative;
+  float: left;
+  transition: 0.2s;
+}
+.nav-text {
+  transition: 0.2s;
+}
+.nav-text:hover {
+  color: #603913;
+}
+.nav-text-bottom {
+  position: relative;
+  left: 200px;
+  top: 10px;
+  transition: 0.3s;
+}
+.nav-text-bottom a {
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  display: inline;
+}
+.small {
+  background: no-repeat;
+  background-image: url(img/nav-bar/bg-contact-bar.png);
+  width: 80%;
+  position: relative;
+  left: 760px;
+  height: 30px;
+}
+#small {
+  display: flex;
+}
+.small a {
+  position: relative;
+  top: -3px;
+  left: 30px;
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 7px;
+}
+.small p {
+  position: relative;
+  top: -6px;
+  left: 30px;
+  color: white;
+  padding: 7px;
+}
+.nav-text-top {
+  transition: 0.2s;
+}
+.nav-text-top:hover {
+  color: #75706a;
+}
+.icon-bottom {
+  width: 15px;
+  transition: 0.5s;
+}
+.box-icon {
+  height: 35px;
+  position: relative;
+}
+.icon-bottom:hover {
+  transform: scale(1.2);
+  filter: invert(100%);
+}
+.copyright {
+  color: #8d8881;
+  padding: 40px 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.footer-text {
+  transition: 0.3s;
+}
+.footer-text:hover {
+  color: black;
+}
+.menu {
+  filter: invert(100%);
+  position: absolute;
+  top: 40px;
+  left: 85%;
+  width: 25px;
+  display: none;
+}
+#hide {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  right: -300px;
+  background-color: #673b0f;
+}
+.hide-text {
+  position: relative;
+  top: 30px;
+  left: 10%;
+  font-size: 90%;
+  color: white;
+  transition: 0.2s;
+}
+.hide-text-last {
+  font-size: 10px;
+  color: white;
+}
+.hide-text-bottom {
+  position: relative;
+  top: 50%;
+}
+.hide-text:hover {
+  color: #75706a;
+}
+#close {
+  filter: invert(100%);
+}
+#close {
+  z-index: 1000;
+  width: 30px;
+  padding: 7px;
+  position: relative;
+  float: right;
+  background-color: #b2d3f3;
+  animation: none;
+}
+@keyframes show {
+  0%{
+    right: -300px;
+  }
+  100%{
+    right: 0;
+  }
+}
+@keyframes close {
+  0%{
+    right: 0;
+  }
+  100%{
+    right: -300px;
+  }
+}
+@keyframes ons {
+  0%{
+    filter: brightness(0);
+  }
+  100%{
+    filter: brightness(0.30);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .menu {
+    display: flex;
+  }
+  .nav-text-bottom,
+  #footer-text-top,
+  #small {
+    display: none;
+  }
+}

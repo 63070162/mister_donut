@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="nav-bar.css" />
+  <link rel="icon" href="http://www.misterdonut.co.th/img/favicon.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <title>NAV BAR</title>
+</head>
+
+<body>
+  <div class="nav">
+    <div class="container nav-top pb-0">
+      <p id="hello" class="pt-2">HELLO...</p>
+      <ul class="pt-2 main-contact pb-0">
+        <a href="https://www.facebook.com/MisterDonutThailand" target="_blank" class="text-icon fb"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/20/20837.png" alt="facebook" class="icon-top" />
+          <span>Facebook</span>
+        </a>
+        <a href="https://www.instagram.com/misterdonut_thailand/" target="_blank" class="text-icon ig"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384089.png" alt="instagram" class="icon-top" />
+          <span>Instagram</span>
+        </a>
+        <a href="https://twitter.com/MisterdonutThai" target="_blank" class="text-icon tw"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111819.png" alt="twitter" class="icon-top" />
+          <span>Twitter</span>
+        </a>
+        <a href="https://www.youtube.com/channel/UCJ9RxPxMsQabgddxUKBHakg" target="_blank" class="text-icon yt"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/37/37922.png" alt="youtube" class="icon-top" />
+          <span>Youtube</span>
+        </a>
+        <a href="http://line.me/ti/p/%40mister.donut" target="_blank" class="text-icon line"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111527.png" alt="line" class="icon-top" />
+          <span>Line</span>
+        </a>
+      </ul>
+    </div>
+    <div class="nav-bottom row pt-0" id="nav-bottom">
+      <div class="container">
+        <div class="col-4">
+          <a href="#" style="text-decoration: none">
+            <img src="/navbar/img/logo.png" alt="logo" class="logo" id="logo" />
+          </a>
+        </div>
+        <div class="small row col-4" id="small">
+          <a href="#" class="nav-text-top" style="text-decoration: none">CAREERS</a>
+          <p>|</p>
+          <a href="#" class="nav-text-top" style="text-decoration: none">CONTACT US</a>
+        </div>
+        <div class="nav-text-bottom" id="nav-text-bottom">
+          <a href="/html/" class="nav-text" style="text-decoration: none">HOME</a>
+          <a href="/css/" class="nav-text" style="text-decoration: none">ABOUT US</a>
+          <a href="/js/" class="nav-text" style="text-decoration: none">MENU</a>
+          <a href="/python/" class="nav-text" style="text-decoration: none">PROMOTIONS</a>
+          <a href="/python/" class="nav-text" style="text-decoration: none">NEWS & ACTIVITY</a>
+          <a href="/python/" class="nav-text" style="text-decoration: none">SNACK BOX & CATERING</a>
+          <a href="/python/" class="nav-text" style="text-decoration: none">BRANCH</a>
+        </div>
+        <div>
+          <img src="/navbar/img/56763.png" alt="" class="menu" id="menu" onclick="menu()" />
+        </div>
+      </div>
+      <div class="hide" id="hide">
+        <img src="/navbar/img/1828747.png" alt="close" id="close" onclick="closed()" />
+        <div class="hide-text-top p-4">
+          <a href="/html/" class="hide-text" style="text-decoration: none">HOME</a><br />
+          <a href="/css/" class="hide-text" style="text-decoration: none">ABOUT US</a><br />
+          <a href="/js/" class="hide-text" style="text-decoration: none">MENU</a><br />
+          <a href="/python/" class="hide-text" style="text-decoration: none">PROMOTIONS</a><br />
+          <a href="/python/" class="hide-text" style="text-decoration: none">NEWS & ACTIVITY</a><br />
+          <a href="/python/" class="hide-text" style="text-decoration: none">SNACK BOX & CATERING</a><br />
+          <a href="/python/" class="hide-text" style="text-decoration: none">BRANCH</a><br />
+          <a href="#" class="hide-text" style="text-decoration: none">CAREERS </a><br />
+          <a href="#" class="hide-text" style="text-decoration: none">CONTACT US</a><br />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="height: 100px;"></div>
+  <!-- เปิด -->
+  <div style="background-color: brown; width: 100%; height: 1000px"></div>
+  <!-- ปิด -->
+  <footer>
+    <div class="pt-5 pb-5" id="footer-text-top">
+      <a href="/html/" class="footer-text" style="text-decoration: none">HOME</a>
+      <a href="/css/" class="footer-text" style="text-decoration: none">ABOUT US</a>
+      <a href="/js/" class="footer-text" style="text-decoration: none">MENU</a>
+      <a href="/python/" class="footer-text" style="text-decoration: none">PROMOTIONS</a>
+      <a href="/python/" class="footer-text" style="text-decoration: none">NEWS & ACTIVITY</a>
+      <a href="/python/" class="footer-text" style="text-decoration: none">SNACK BOX & CATERING</a>
+      <a href="/python/" class="footer-text" style="text-decoration: none">BRANCH</a>
+      <a href="/python/" class="footer-text" style="text-decoration: none">CAREERS</a>
+      <a href="/python/" class="footer-text" style="text-decoration: none">CONTACT US</a>
+    </div>
+    <div class="box-icon p-1 pb-0 pt-3">
+      <ul class="icon-move">
+        <a href="https://www.facebook.com/MisterDonutThailand" target="_blank" class="fb" style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/20/20837.png" alt="facebook" class="icon-bottom" />
+        </a>
+        <a href="https://www.instagram.com/misterdonut_thailand/" target="_blank" class="ig"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384089.png" alt="instagram" class="icon-bottom" />
+        </a>
+        <a href="https://twitter.com/MisterdonutThai" target="_blank" class="tw" style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111819.png" alt="twitter" class="icon-bottom" />
+        </a>
+        <a href="https://www.youtube.com/channel/UCJ9RxPxMsQabgddxUKBHakg" target="_blank" class="yt"
+          style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/37/37922.png" alt="youtube" class="icon-bottom" />
+        </a>
+        <a href="http://line.me/ti/p/%40mister.donut" target="_blank" class="line" style="text-decoration: none">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111527.png" alt="line" class="icon-bottom" />
+        </a>
+      </ul>
+    </div>
+    <div>
+      <p class="copyright">
+        Copyright@2017 by Central Restaurants Group Co.,Ltd. All right
+        reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

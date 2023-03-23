@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+Thai:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@900&family=Varela+Round&display=swap');
+*{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+.main{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    z-index: -10;
+}
+.img1{
+    width: 100%;
+    position: relative;
+}
+.imgopa{
+    width: 100%;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+.txt1{
+    text-align: center;
+}
+.line1_1{
+    border-bottom: gray 0.5px solid;
+}
+.newact{
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #603913;
+    font-size: 40px;
+    text-transform: uppercase;
+    float: left;
+}
+.dt1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #e10f21;
+    margin: 0;
+}
+.dt2{
+    font-size: 15px;
+    font-weight: normal;
+    color: #999;
+    line-height: initial;
+    text-align: center;
+}
+body{
+    position: relative;
+    z-index: -10;
+}
+.imgopa:hover{
+    opacity: 80%;
+}
+
+
+
+
+
+.main-popup{
+    opacity: -10;
+    z-index: -1010;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(27, 27, 27, 0.787);
+    display: flex;
+    position: fixed;
+    float: none !important;
+    overflow: auto;
+    top: 0;
+}
+
+.popup1-1{
+    max-width: 500px;
+    margin-right: 470px;
+}
+
+.popup1-2{
+    top: 0vh;
+    padding: 49px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    max-width: 500px;
+    background-color: white;
+    text-align: center !important;
+}
+
+.button-close-popup{
+    display: inline-block;
+    right: 0;
+    left: 455px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #dd343c;
+    color: #FFF;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+    transition: all .2s ease-in-out;
+}
+
+.button-close-popup:hover{
+    background-color: #603913;
+}
+
+.img-popup{
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.up-popup1{
+    max-width: 700px;
+    margin-right: 650px;
+}
+
+.up-popup2{
+    max-width: 700px;
+    text-align: start !important;
+    
+}
+
+.uptxt-red{
+    margin-top: 25px;
+    line-height: 0px;
+    color: #dd343c; 
+    margin-bottom: 10px; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.uptxt-small{
+
+    font-size: 20px;
+    color: #999;
+    line-height: 20px;
+    margin-top: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+img{
+    width: 100%;
+    position: relative;
+}
+.txt_popup{
+    font-size: 14px;
+}
+.underline{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 16px;
+    color:#555555;
+}
